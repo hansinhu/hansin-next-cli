@@ -1,0 +1,13 @@
+.next
+_next
+/node_modules/
+dist
+/document/
+.idea
+out
+test
+.DS_Store
+*~
+static/js/config.js
+*.log
+

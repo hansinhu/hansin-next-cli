@@ -1,0 +1,369 @@
+/*三种颜色通用样式*/
+.c3-green .ant-btn-primary.ant-btn {
+  background-color: #4FBE60;
+  color: #FFFFFF;
+}
+.c3-green .ant-btn {
+  border-color: #4FBE60;
+  color: #4FBE60;
+}
+.c3-green .ant-tabs-nav .ant-tabs-ink-bar {
+  background-color: #4FBE60;
+}
+.c3-green .ant-tabs-nav .ant-tabs-tab-active {
+  color: #4FBE60;
+}
+.c3-green #mHeader .top-info {
+  background-color: #FFFFFF;
+  color: #4FBE60;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+}
+.c3-green #mHeader .top-info .nav-right .nav-item .nav-shop {
+  color: #4FBE60;
+}
+.c3-green #mHeader .search-box .close .anticon {
+  color: #4FBE60;
+}
+.c3-green #mHeader .draw_menu .menu-footer {
+  background: #4FBE60;
+  border-top: .01333rem solid #ccc;
+  color: #FFFFFF;
+}
+.c3-green #mHeader .draw_menu .menu-footer .footer-item-first {
+  color: #FFFFFF;
+}
+.c3-green #mHeader .draw_menu .menu-items .item .item-wrap-active {
+  color: #4FBE60;
+}
+.c3-green #mHeader .draw_menu .menu-items .item .item-sub1 .item-active {
+  color: #4FBE60;
+}
+.c3-green #mHeader .draw_menu .menu-items .item .menu-check {
+  color: #4FBE60;
+}
+.c3-green #mFooter .footer-wrapper .footer-content {
+  background-color: rgba(79, 190, 96, 0.1);
+}
+.c3-green #mFooter .footer-wrapper .footer-content .footer-bottom {
+  background: #4FBE60;
+}
+.c3-green #mFooter .footer-wrapper .footer-content .footer-item .footer-header .header {
+  color: #4FBE60;
+}
+.c3-green #mFooter .footer-wrapper .footer-content .footer-item .items .item .font {
+  color: #4FBE60;
+}
+.c3-green #mFooter .footer-wrapper .footer-content .footer-item .items .item p {
+  color: #333333;
+}
+.c3-green .mpro-box .pro-btn .m-pro-btn {
+  background-color: #4FBE60;
+  color: #FFFFFF;
+}
+.c3-green .mpro-box .pro-img-box .tip-box {
+  background-color: #4FBE60;
+}
+.c3-green .mpro-box .pro-img-box .tip-box .tips {
+  color: #4FBE60;
+}
+.c3-green .mpro-box .pro-img-box .tip-box .tips-count {
+  color: #FFFFFF;
+}
+.c3-green .mpro-box .pro-img-box .time-box {
+  padding: 0;
+  bottom: 0;
+  height: 1.0rem;
+}
+.c3-green .mpro-box .pro-img-box .time-box .time-inner {
+  border-radius: 0;
+  background: rgba(51, 51, 51, 0.7);
+  color: #4FBE60;
+}
+.c3-green .productMobile .sort .sort-contain .catalog {
+  background-color: #4FBE60;
+  color: #FFFFFF;
+}
+.c3-green .productMobile .sort .sort-contain .list-botton {
+  color: #4FBE60;
+}
+.c3-green .productMobile .sort .sort-contain .list-botton i {
+  color: #4FBE60;
+  border: 0.01333rem solid #4FBE60;
+}
+.c3-green .productMobile .sort .sort-contain .catalog-show .catalog-contain .part .content .group-click {
+  color: #FFFFFF;
+  background-color: #4FBE60;
+}
+.c3-green .productMobile .sort .sort-contain .catalog-show .catalog-contain .botton .done {
+  color: #FFFFFF;
+  background-color: #4FBE60;
+}
+.c3-green .productMobile .list-contain .list-one .part .right-info .operate .botton {
+  background: #4FBE60;
+  color: #FFFFFF;
+}
+.c3-green .productMobile .list-contain .list-one .part .right-info .sale .sale-span {
+  color: #4FBE60;
+  border-color: #4FBE60;
+}
+.c3-green .productMobile .list-contain .list-one .part .right-info .sale .sale-spans {
+  color: #FFFFFF;
+  background: #4FBE60;
+  border: 0.01333rem solid #4FBE60;
+}
+.c3-green .productMobile .list-contain .list-one .part .right-info .time {
+  background-color: rgba(51, 51, 51, 0.3);
+  color: #4FBE60;
+}
+.c3-green #mCompany .wrabox .bor_bt {
+  background: #4FBE60;
+}
+.c3-green #mContact .conbox .bor_bt {
+  background: #4FBE60;
+}
+/*三种颜色通用样式*/
+.c3-blue .ant-btn-primary.ant-btn {
+  background-color: #44A8F2;
+  color: #FFFFFF;
+}
+.c3-blue .ant-btn {
+  border-color: #44A8F2;
+  color: #44A8F2;
+}
+.c3-blue .ant-tabs-nav .ant-tabs-ink-bar {
+  background-color: #44A8F2;
+}
+.c3-blue .ant-tabs-nav .ant-tabs-tab-active {
+  color: #44A8F2;
+}
+.c3-blue #mHeader .top-info {
+  background-color: #FFFFFF;
+  color: #44A8F2;
+  border: 1px solid rgba(51, 51, 51, 0.3);
+}
+.c3-blue #mHeader .top-info .nav-right .nav-item .nav-shop {
+  color: #44A8F2;
+}
+.c3-blue #mHeader .search-box .close .anticon {
+  color: #44A8F2;
+}
+.c3-blue #mHeader .draw_menu .menu-footer {
+  background: #44A8F2;
+  border-top: .01333rem solid #ccc;
+  color: #FFFFFF;
+}
+.c3-blue #mHeader .draw_menu .menu-footer .footer-item-first {
+  color: #FFFFFF;
+}
+.c3-blue #mHeader .draw_menu .menu-items .item .item-wrap-active {
+  color: #44A8F2;
+}
+.c3-blue #mHeader .draw_menu .menu-items .item .item-sub1 .item-active {
+  color: #44A8F2;
+}
+.c3-blue #mHeader .draw_menu .menu-items .item .menu-check {
+  color: #44A8F2;
+}
+.c3-blue #mFooter .footer-wrapper .footer-content {
+  background-color: rgba(68, 168, 242, 0.1);
+}
+.c3-blue #mFooter .footer-wrapper .footer-content .footer-bottom {
+  background: #44A8F2;
+}
+.c3-blue #mFooter .footer-wrapper .footer-content .footer-item .footer-header .header {
+  color: #44A8F2;
+}
+.c3-blue #mFooter .footer-wrapper .footer-content .footer-item .items .item .font {
+  color: #44A8F2;
+}
+.c3-blue #mFooter .footer-wrapper .footer-content .footer-item .items .item p {
+  color: #333333;
+}
+.c3-blue .mpro-box .pro-btn .m-pro-btn {
+  background-color: #44A8F2;
+  color: #FFFFFF;
+}
+.c3-blue .mpro-box .pro-img-box .tip-box {
+  background-color: #44A8F2;
+}
+.c3-blue .mpro-box .pro-img-box .tip-box .tips {
+  color: #44A8F2;
+}
+.c3-blue .mpro-box .pro-img-box .tip-box .tips-count {
+  color: #FFFFFF;
+}
+.c3-blue .mpro-box .pro-img-box .time-box {
+  padding: 0;
+  bottom: 0;
+  height: 1.0rem;
+}
+.c3-blue .mpro-box .pro-img-box .time-box .time-inner {
+  border-radius: 0;
+  background: rgba(51, 51, 51, 0.7);
+  color: #44A8F2;
+}
+.c3-blue .productMobile .sort .sort-contain .catalog {
+  background-color: #44A8F2;
+  color: #FFFFFF;
+}
+.c3-blue .productMobile .sort .sort-contain .list-botton {
+  color: #44A8F2;
+}
+.c3-blue .productMobile .sort .sort-contain .list-botton i {
+  color: #44A8F2;
+  border: 0.01333rem solid #44A8F2;
+}
+.c3-blue .productMobile .sort .sort-contain .catalog-show .catalog-contain .part .content .group-click {
+  color: #FFFFFF;
+  background-color: #44A8F2;
+}
+.c3-blue .productMobile .sort .sort-contain .catalog-show .catalog-contain .botton .done {
+  color: #FFFFFF;
+  background-color: #44A8F2;
+}
+.c3-blue .productMobile .list-contain .list-one .part .right-info .operate .botton {
+  background: #44A8F2;
+  color: #FFFFFF;
+}
+.c3-blue .productMobile .list-contain .list-one .part .right-info .sale .sale-span {
+  color: #44A8F2;
+  border-color: #44A8F2;
+}
+.c3-blue .productMobile .list-contain .list-one .part .right-info .sale .sale-spans {
+  color: #FFFFFF;
+  background: #44A8F2;
+  border: 0.01333rem solid #44A8F2;
+}
+.c3-blue .productMobile .list-contain .list-one .part .right-info .time {
+  background-color: rgba(51, 51, 51, 0.3);
+  color: #44A8F2;
+}
+.c3-blue #mCompany .wrabox .bor_bt {
+  background: #44A8F2;
+}
+.c3-blue #mContact .conbox .bor_bt {
+  background: #44A8F2;
+}
+/*三种颜色通用样式*/
+.c3-red .ant-btn-primary.ant-btn {
+  background-color: #E1303B;
+  color: #FFFFFF;
+}
+.c3-red .ant-btn {
+  border-color: #E1303B;
+  color: #E1303B;
+}
+.c3-red .ant-tabs-nav .ant-tabs-ink-bar {
+  background-color: #E1303B;
+}
+.c3-red .ant-tabs-nav .ant-tabs-tab-active {
+  color: #E1303B;
+}
+.c3-red #mHeader .top-info {
+  background-color: #FFFFFF;
+  color: #E1303B;
+  border: 1px solid rgba(51, 51, 51, 0.3);
+}
+.c3-red #mHeader .top-info .nav-right .nav-item .nav-shop {
+  color: #E1303B;
+}
+.c3-red #mHeader .search-box .close .anticon {
+  color: #E1303B;
+}
+.c3-red #mHeader .draw_menu .menu-footer {
+  background: #E1303B;
+  border-top: .01333rem solid #ccc;
+  color: #FFFFFF;
+}
+.c3-red #mHeader .draw_menu .menu-footer .footer-item-first {
+  color: #FFFFFF;
+}
+.c3-red #mHeader .draw_menu .menu-items .item .item-wrap-active {
+  color: #E1303B;
+}
+.c3-red #mHeader .draw_menu .menu-items .item .item-sub1 .item-active {
+  color: #E1303B;
+}
+.c3-red #mHeader .draw_menu .menu-items .item .menu-check {
+  color: #E1303B;
+}
+.c3-red #mFooter .footer-wrapper .footer-content {
+  background-color: rgba(240, 65, 52, 0.1);
+}
+.c3-red #mFooter .footer-wrapper .footer-content .footer-bottom {
+  background: #E1303B;
+}
+.c3-red #mFooter .footer-wrapper .footer-content .footer-item .footer-header .header {
+  color: #E1303B;
+}
+.c3-red #mFooter .footer-wrapper .footer-content .footer-item .items .item .font {
+  color: #E1303B;
+}
+.c3-red #mFooter .footer-wrapper .footer-content .footer-item .items .item p {
+  color: #333333;
+}
+.c3-red .mpro-box .pro-btn .m-pro-btn {
+  background-color: #E1303B;
+  color: #FFFFFF;
+}
+.c3-red .mpro-box .pro-img-box .tip-box {
+  background-color: #E1303B;
+}
+.c3-red .mpro-box .pro-img-box .tip-box .tips {
+  color: #E1303B;
+}
+.c3-red .mpro-box .pro-img-box .tip-box .tips-count {
+  color: #FFFFFF;
+}
+.c3-red .mpro-box .pro-img-box .time-box {
+  padding: 0;
+  bottom: 0;
+  height: 1.0rem;
+}
+.c3-red .mpro-box .pro-img-box .time-box .time-inner {
+  border-radius: 0;
+  background: rgba(51, 51, 51, 0.7);
+  color: #E1303B;
+}
+.c3-red .productMobile .sort .sort-contain .catalog {
+  background-color: #E1303B;
+  color: #FFFFFF;
+}
+.c3-red .productMobile .sort .sort-contain .list-botton {
+  color: #E1303B;
+}
+.c3-red .productMobile .sort .sort-contain .list-botton i {
+  color: #E1303B;
+  border: 0.01333rem solid #E1303B;
+}
+.c3-red .productMobile .sort .sort-contain .catalog-show .catalog-contain .part .content .group-click {
+  color: #FFFFFF;
+  background-color: #E1303B;
+}
+.c3-red .productMobile .sort .sort-contain .catalog-show .catalog-contain .botton .done {
+  color: #FFFFFF;
+  background-color: #E1303B;
+}
+.c3-red .productMobile .list-contain .list-one .part .right-info .operate .botton {
+  background: #E1303B;
+  color: #FFFFFF;
+}
+.c3-red .productMobile .list-contain .list-one .part .right-info .sale .sale-span {
+  color: #E1303B;
+  border-color: #E1303B;
+}
+.c3-red .productMobile .list-contain .list-one .part .right-info .sale .sale-spans {
+  color: #FFFFFF;
+  background: #E1303B;
+  border: 0.01333rem solid #E1303B;
+}
+.c3-red .productMobile .list-contain .list-one .part .right-info .time {
+  background-color: rgba(51, 51, 51, 0.3);
+  color: #E1303B;
+}
+.c3-red #mCompany .wrabox .bor_bt {
+  background: #E1303B;
+}
+.c3-red #mContact .conbox .bor_bt {
+  background: #E1303B;
+}

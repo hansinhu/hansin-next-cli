@@ -1,0 +1,146 @@
+//@import "./color.less";
+.magnifier-wrap{
+  position: absolute;
+  left:0;
+  top:0;
+  z-index: 5;
+  width:710px;
+  height:600px;
+
+  .magnifier-con{
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  //ImgList
+  .img-list-con{
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 101px;
+    height: 600px;
+    margin-right: 8px;
+    padding: 22px 0;
+    line-height:1;
+  }
+  .img-list{
+    position: absolute;
+    left: 0;
+    top: 23px;
+    width: 101px;
+    min-height: 476px;
+    -moz-transition: all ease .6s;
+    -ms-transition: all ease .6s;
+    -webkit-transition: all ease .6s;
+    transition: all ease .6s;
+
+    li{
+      position: relative;
+      display: inline-block;
+      width: 101px;
+      height: 101px;
+      border: 1px solid @border-color;
+      cursor:pointer;
+      overflow: hidden;
+      line-height: 100px;
+      img{
+        /*float: left;*/
+        width: 100%;
+        height: auto;
+        vertical-align: middle;
+        line-height: 1;
+        outline: none;
+      }
+    }
+    li.active::after{
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      border: 2px solid @primary-color;
+    }
+  }
+
+  .img-list li + li{
+    margin-top: 10px;
+  }
+
+
+  .img-big{
+    position: relative;
+    float: left;
+    width: 600px;
+    height: 600px;
+    border: 1px solid @border-color;
+    overflow: hidden;
+    cursor: move;
+    line-height: 598px;
+    img{
+      /*float: left;*/
+      width: 600px;
+      height: auto;
+      vertical-align: middle;
+      line-height: 1;
+      outline: none;
+    }
+    .mask{
+      display:none;
+      position: absolute;
+      left:0;
+      top:0;
+      z-index:1;
+      width:300px;
+      height:300px;
+      background-color:rgba(0,0,0,.3);
+    }
+    .spinner{
+      left: 0;
+      top: 0;
+    }
+  }
+  .big-img-com{
+    display:none;
+    position: absolute;
+    left: 730px;
+    top:0px;
+    z-index:9;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    img{
+      position: absolute;
+      left:0;
+      top:0;
+      width: 1200px;
+      height: auto;
+    }
+  }
+  .arrow-btn{
+    position: absolute;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 22px;
+    border: none;
+    outline: none;
+    background: white;
+    text-align: center;
+    font-size: 16px;
+    color: @black0000-color;
+    cursor: pointer;
+    line-height: 22px;
+  }
+  .arrow-btn[disabled]{
+    cursor: not-allowed;
+  }
+  .up-arrow{
+    top: 0;
+  }
+  .down-arrow{
+    bottom: 0;
+  }
+}

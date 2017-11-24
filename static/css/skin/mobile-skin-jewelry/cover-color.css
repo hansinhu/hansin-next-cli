@@ -1,0 +1,399 @@
+.jewelry-module .timeBox {
+  opacity: .8;
+  background: #E12F3B;
+}
+.jewelry-module .timeBox .time .centerTimeBox dl dt {
+  color: #FFFFFF;
+  background: transparent;
+}
+.jewelry-module .timeBox .time .centerTimeBox dl dd {
+  color: #FFFFFF;
+}
+.jewelry-blue .ant-btn-primary.ant-btn {
+  background-color: #9FD2D6;
+  color: #FFFFFF;
+  border-color: #9FD2D6;
+}
+.jewelry-blue .ant-btn {
+  border-color: #9FD2D6;
+  color: #9FD2D6;
+}
+.jewelry-blue .ant-tabs-nav .ant-tabs-ink-bar {
+  background-color: #9FD2D6;
+}
+.jewelry-blue .ant-tabs-nav .ant-tabs-tab-active {
+  color: #9FD2D6;
+}
+.jewelry-blue #mHeader .ant-badge-count {
+  background: #000000 !important;
+}
+.jewelry-blue #mHeader .ant-badge-count span {
+  color: #FFFFFF !important;
+}
+.jewelry-blue #mHeader .top-info {
+  background-color: #F2F2F2;
+  color: #9FD2D6;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+}
+.jewelry-blue #mHeader .top-info .nav-right .nav-item .nav-shop {
+  color: #9FD2D6;
+}
+.jewelry-blue #mHeader .search-box .close .anticon {
+  color: #9FD2D6;
+}
+.jewelry-blue #mHeader .draw_menu .menu-footer {
+  background: #9FD2D6;
+  color: #FFFFFF;
+}
+.jewelry-blue #mHeader .draw_menu .menu-footer .footer-item-first {
+  color: #FFFFFF;
+}
+.jewelry-blue #mHeader .draw_menu .menu-items .item .item-wrap-active {
+  color: #9FD2D6;
+  font-weight: bold;
+}
+.jewelry-blue #mHeader .draw_menu .menu-items .item .item-sub1 .item-active {
+  color: #9FD2D6;
+}
+.jewelry-blue #mHeader .draw_menu .menu-items .item .menu-check {
+  color: #9FD2D6;
+}
+.jewelry-blue #mFooter .footer-wrapper .footer-content {
+  background: #252525;
+}
+.jewelry-blue #mFooter .footer-wrapper .footer-content .footer-bottom {
+  background: #181818;
+}
+.jewelry-blue #mFooter .footer-wrapper .footer-content .footer-item .footer-header .header {
+  color: #FFFFFF;
+}
+.jewelry-blue #mFooter .footer-wrapper .footer-content .footer-item .items .item .font {
+  color: #9FD2D6;
+}
+.jewelry-blue #mFooter .footer-wrapper .footer-content .footer-item .items .item p {
+  color: #FFFFFF;
+}
+.jewelry-blue .mpro-box .pro-btn .m-pro-btn {
+  background-color: #9FD2D6;
+  color: #FFFFFF;
+}
+.jewelry-blue .mpro-box .pro-img-box .tip-box {
+  background-color: #9FD2D6;
+}
+.jewelry-blue .mpro-box .pro-img-box .tip-box .tips {
+  color: #9FD2D6;
+}
+.jewelry-blue .mpro-box .pro-img-box .tip-box .tips-count {
+  color: #FFFFFF;
+}
+.jewelry-blue .mpro-box .pro-img-box .time-box {
+  padding: 0;
+  bottom: 0;
+  height: 1.0rem;
+}
+.jewelry-blue .mpro-box .pro-img-box .time-box .time-inner {
+  border-radius: 0;
+  background-color: rgba(159, 210, 214, 0.8);
+  color: #FFFFFF;
+}
+.jewelry-blue .productMobile .sort .sort-contain .catalog {
+  background-color: #9FD2D6;
+  color: #FFFFFF;
+}
+.jewelry-blue .productMobile .sort .sort-contain .list-botton {
+  color: #9FD2D6;
+}
+.jewelry-blue .productMobile .sort .sort-contain .list-botton i {
+  color: #9FD2D6;
+  border: 0.01333rem solid #9FD2D6;
+}
+.jewelry-blue .productMobile .sort .sort-contain .catalog-show .catalog-contain .part .content .group-click {
+  color: #FFFFFF;
+  background-color: #9FD2D6;
+}
+.jewelry-blue .productMobile .sort .sort-contain .catalog-show .catalog-contain .botton .done {
+  color: #FFFFFF;
+  background-color: #9FD2D6;
+}
+.jewelry-blue .productMobile .list-contain .list-one .part .right-info .operate .botton {
+  background: #9FD2D6;
+  color: #FFFFFF;
+}
+.jewelry-blue .productMobile .list-contain .list-one .part .right-info .sale .sale-span {
+  color: #9FD2D6;
+  border-color: #9FD2D6;
+}
+.jewelry-blue .productMobile .list-contain .list-one .part .right-info .sale .sale-spans {
+  color: #FFFFFF;
+  background: #9FD2D6;
+  border: 0.01333rem solid #9FD2D6;
+}
+.jewelry-blue .productMobile .list-contain .list-one .part .right-info .time {
+  background-color: rgba(159, 210, 214, 0.8);
+  color: #FFFFFF;
+}
+.jewelry-blue #mCompany .wrabox .bor_bt {
+  background: #9FD2D6;
+}
+.jewelry-blue #mContact .conbox .bor_bt {
+  background: #9FD2D6;
+}
+.jewelry-yellow .ant-btn-primary.ant-btn {
+  background-color: #D9A87D;
+  color: #FFFFFF;
+  border-color: #D9A87D;
+}
+.jewelry-yellow .ant-btn {
+  border-color: #D9A87D;
+  color: #D9A87D;
+}
+.jewelry-yellow .ant-tabs-nav .ant-tabs-ink-bar {
+  background-color: #D9A87D;
+}
+.jewelry-yellow .ant-tabs-nav .ant-tabs-tab-active {
+  color: #D9A87D;
+}
+.jewelry-yellow #mHeader .ant-badge-count {
+  background: #000000 !important;
+}
+.jewelry-yellow #mHeader .ant-badge-count span {
+  color: #FFFFFF !important;
+}
+.jewelry-yellow #mHeader .top-info {
+  background-color: #F2F2F2;
+  color: #D9A87D;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+}
+.jewelry-yellow #mHeader .top-info .nav-right .nav-item .nav-shop {
+  color: #D9A87D;
+}
+.jewelry-yellow #mHeader .search-box .close .anticon {
+  color: #D9A87D;
+}
+.jewelry-yellow #mHeader .draw_menu .menu-footer {
+  background: #D9A87D;
+  color: #FFFFFF;
+}
+.jewelry-yellow #mHeader .draw_menu .menu-footer .footer-item-first {
+  color: #FFFFFF;
+}
+.jewelry-yellow #mHeader .draw_menu .menu-items .item .item-wrap-active {
+  color: #D9A87D;
+  font-weight: bold;
+}
+.jewelry-yellow #mHeader .draw_menu .menu-items .item .item-sub1 .item-active {
+  color: #D9A87D;
+}
+.jewelry-yellow #mHeader .draw_menu .menu-items .item .menu-check {
+  color: #D9A87D;
+}
+.jewelry-yellow #mFooter .footer-wrapper .footer-content {
+  background: #252525;
+}
+.jewelry-yellow #mFooter .footer-wrapper .footer-content .footer-bottom {
+  background: #181818;
+}
+.jewelry-yellow #mFooter .footer-wrapper .footer-content .footer-item .footer-header .header {
+  color: #FFFFFF;
+}
+.jewelry-yellow #mFooter .footer-wrapper .footer-content .footer-item .items .item .font {
+  color: #D9A87D;
+}
+.jewelry-yellow #mFooter .footer-wrapper .footer-content .footer-item .items .item p {
+  color: #FFFFFF;
+}
+.jewelry-yellow .mpro-box .pro-btn .m-pro-btn {
+  background-color: #D9A87D;
+  color: #FFFFFF;
+}
+.jewelry-yellow .mpro-box .pro-img-box .tip-box {
+  background-color: #D9A87D;
+}
+.jewelry-yellow .mpro-box .pro-img-box .tip-box .tips {
+  color: #D9A87D;
+}
+.jewelry-yellow .mpro-box .pro-img-box .tip-box .tips-count {
+  color: #FFFFFF;
+}
+.jewelry-yellow .mpro-box .pro-img-box .time-box {
+  padding: 0;
+  bottom: 0;
+  height: 1.0rem;
+}
+.jewelry-yellow .mpro-box .pro-img-box .time-box .time-inner {
+  border-radius: 0;
+  background-color: rgba(217, 168, 125, 0.8);
+  color: #FFFFFF;
+}
+.jewelry-yellow .productMobile .sort .sort-contain .catalog {
+  background-color: #D9A87D;
+  color: #FFFFFF;
+}
+.jewelry-yellow .productMobile .sort .sort-contain .list-botton {
+  color: #D9A87D;
+}
+.jewelry-yellow .productMobile .sort .sort-contain .list-botton i {
+  color: #D9A87D;
+  border: 0.01333rem solid #D9A87D;
+}
+.jewelry-yellow .productMobile .sort .sort-contain .catalog-show .catalog-contain .part .content .group-click {
+  color: #FFFFFF;
+  background-color: #D9A87D;
+}
+.jewelry-yellow .productMobile .sort .sort-contain .catalog-show .catalog-contain .botton .done {
+  color: #FFFFFF;
+  background-color: #D9A87D;
+}
+.jewelry-yellow .productMobile .list-contain .list-one .part .right-info .operate .botton {
+  background: #D9A87D;
+  color: #FFFFFF;
+}
+.jewelry-yellow .productMobile .list-contain .list-one .part .right-info .sale .sale-span {
+  color: #D9A87D;
+  border-color: #D9A87D;
+}
+.jewelry-yellow .productMobile .list-contain .list-one .part .right-info .sale .sale-spans {
+  color: #FFFFFF;
+  background: #D9A87D;
+  border: 0.01333rem solid #D9A87D;
+}
+.jewelry-yellow .productMobile .list-contain .list-one .part .right-info .time {
+  background-color: rgba(217, 168, 125, 0.8);
+  color: #FFFFFF;
+}
+.jewelry-yellow #mCompany .wrabox .bor_bt {
+  background: #D9A87D;
+}
+.jewelry-yellow #mContact .conbox .bor_bt {
+  background: #D9A87D;
+}
+/*三种颜色通用样式*/
+.jewelry-pink .ant-btn-primary.ant-btn {
+  background-color: #DC9CAF;
+  color: #FFFFFF;
+  border-color: #DC9CAF;
+}
+.jewelry-pink .ant-btn {
+  border-color: #DC9CAF;
+  color: #DC9CAF;
+}
+.jewelry-pink .ant-tabs-nav .ant-tabs-ink-bar {
+  background-color: #DC9CAF;
+}
+.jewelry-pink .ant-tabs-nav .ant-tabs-tab-active {
+  color: #DC9CAF;
+}
+.jewelry-pink #mHeader .ant-badge-count {
+  background: #000000 !important;
+}
+.jewelry-pink #mHeader .ant-badge-count span {
+  color: #FFFFFF !important;
+}
+.jewelry-pink #mHeader .top-info {
+  background-color: #F2F2F2;
+  color: #DC9CAF;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+}
+.jewelry-pink #mHeader .top-info .nav-right .nav-item .nav-shop {
+  color: #DC9CAF;
+}
+.jewelry-pink #mHeader .search-box .close .anticon {
+  color: #DC9CAF;
+}
+.jewelry-pink #mHeader .draw_menu .menu-footer {
+  background: #DC9CAF;
+  color: #FFFFFF;
+}
+.jewelry-pink #mHeader .draw_menu .menu-footer .footer-item-first {
+  color: #FFFFFF;
+}
+.jewelry-pink #mHeader .draw_menu .menu-items .item .item-wrap-active {
+  color: #DC9CAF;
+  font-weight: bold;
+}
+.jewelry-pink #mHeader .draw_menu .menu-items .item .item-sub1 .item-active {
+  color: #DC9CAF;
+}
+.jewelry-pink #mHeader .draw_menu .menu-items .item .menu-check {
+  color: #DC9CAF;
+}
+.jewelry-pink #mFooter .footer-wrapper .footer-content {
+  background: #252525;
+}
+.jewelry-pink #mFooter .footer-wrapper .footer-content .footer-bottom {
+  background: #181818;
+}
+.jewelry-pink #mFooter .footer-wrapper .footer-content .footer-item .footer-header .header {
+  color: #FFFFFF;
+}
+.jewelry-pink #mFooter .footer-wrapper .footer-content .footer-item .items .item .font {
+  color: #DC9CAF;
+}
+.jewelry-pink #mFooter .footer-wrapper .footer-content .footer-item .items .item p {
+  color: #FFFFFF;
+}
+.jewelry-pink .mpro-box .pro-btn .m-pro-btn {
+  background-color: #DC9CAF;
+  color: #FFFFFF;
+}
+.jewelry-pink .mpro-box .pro-img-box .tip-box {
+  background-color: #DC9CAF;
+}
+.jewelry-pink .mpro-box .pro-img-box .tip-box .tips {
+  color: #DC9CAF;
+}
+.jewelry-pink .mpro-box .pro-img-box .tip-box .tips-count {
+  color: #FFFFFF;
+}
+.jewelry-pink .mpro-box .pro-img-box .time-box {
+  padding: 0;
+  bottom: 0;
+  height: 1.0rem;
+}
+.jewelry-pink .mpro-box .pro-img-box .time-box .time-inner {
+  border-radius: 0;
+  background-color: rgba(220, 156, 175, 0.8);
+  color: #FFFFFF;
+}
+.jewelry-pink .productMobile .sort .sort-contain .catalog {
+  background-color: #DC9CAF;
+  color: #FFFFFF;
+}
+.jewelry-pink .productMobile .sort .sort-contain .list-botton {
+  color: #DC9CAF;
+}
+.jewelry-pink .productMobile .sort .sort-contain .list-botton i {
+  color: #DC9CAF;
+  border: 0.01333rem solid #DC9CAF;
+}
+.jewelry-pink .productMobile .sort .sort-contain .catalog-show .catalog-contain .part .content .group-click {
+  color: #FFFFFF;
+  background-color: #DC9CAF;
+}
+.jewelry-pink .productMobile .sort .sort-contain .catalog-show .catalog-contain .botton .done {
+  color: #FFFFFF;
+  background-color: #DC9CAF;
+}
+.jewelry-pink .productMobile .list-contain .list-one .part .right-info .operate .botton {
+  background: #DC9CAF;
+  color: #FFFFFF;
+}
+.jewelry-pink .productMobile .list-contain .list-one .part .right-info .sale .sale-span {
+  color: #DC9CAF;
+  border-color: #DC9CAF;
+}
+.jewelry-pink .productMobile .list-contain .list-one .part .right-info .sale .sale-spans {
+  color: #FFFFFF;
+  background: #DC9CAF;
+  border: 0.01333rem solid #DC9CAF;
+}
+.jewelry-pink .productMobile .list-contain .list-one .part .right-info .time {
+  background-color: rgba(220, 156, 175, 0.8);
+  color: #FFFFFF;
+}
+.jewelry-pink #mCompany .wrabox .bor_bt {
+  background: #DC9CAF;
+}
+.jewelry-pink #mContact .conbox .bor_bt {
+  background: #DC9CAF;
+}

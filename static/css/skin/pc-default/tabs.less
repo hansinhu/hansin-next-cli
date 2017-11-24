@@ -1,0 +1,195 @@
+.pd-wraper{
+    //@import "./color.less";
+    .tabs{
+        padding:100px 0 50px 0;
+        min-width: 1200px;
+        width: 100%;
+        overflow: hidden;
+        .ant-tabs-content {
+            min-height: 400px;
+        }
+        //tabEmpty
+        .imgEmptyStyle{
+            position: relative;
+            left: 35%;
+            margin-top: 60px;
+        }
+
+        //tabsOne
+        .box{
+            width:1200px;
+            font-size: 18px;
+            color: @black00-color;
+            min-height: 346px;
+            td{
+                padding: 5px 10px;
+                border: 1px solid #ddd;
+            }
+        }
+        .tabsTwoBox{
+            float: left;
+            width: 100%;
+            .floatStyle1{
+                display: inline-block;
+                width:23%;
+                height: 40px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                padding: 0 20px;
+                line-height: 40px;
+                color: #666;
+            }
+            .floatStyle2{
+                display: inline-block;
+                width: 77%;
+                height: 40px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                line-height: 40px;
+                color: #333;
+            }
+            &.backgroundColor{
+                background: #f2f2f2;
+                border-radius: 4px;
+            }
+        }
+
+        //tabsThree-top
+        .contentStyle{
+            width:100%;
+            height:147px;
+            background:@primary0-bgcolor;
+            padding:20px 50px;
+            margin-bottom:20px;
+            .leftBox{
+                float:left;
+                margin-right:100px;
+                .spanStyle{
+                    font-size:18px;
+                    display:block;
+                    color:@black00-color;
+                    padding-bottom:5px
+                }
+                .icon-wujiaoxing{
+                    font-size:18px;
+                    color:@black0000-color;
+                }
+                .yellow{
+                    color:@main-hover-color
+                }
+            }
+            .rightBox{
+                float: left;
+                font-size:12px;
+                .starStyle{
+                    font-size:14px;
+                    color:@black00-color;
+                    margin:0 20px
+                }
+                .Rectangle{
+                    display:inline-block;
+                    width:300px;
+                    height:12px;
+                    background:@white-color;
+                    .glassStyle{
+                        background:@main-hover-color;
+                        height:13px;
+                    }
+                }
+                .numStyle{
+                    font-size:16px;
+                    padding-left:20px
+                }
+            }
+        }
+        .line{
+            display:block;
+            width:100%;
+            height:2px;
+            background:@line0-color;
+        }
+        //tabsThree-bottom
+        .bottomBox{
+            margin-top:20px;
+            clear:both;
+            .bottomLine{
+                clear:both;
+                display:block;
+                width:100%;
+                height:1px;
+                background:@line00-color;
+            }
+            .bottomLeftBox{
+                float:left;
+                padding:10px;
+                width:250px;
+                .icon-wujiaoxing{
+                    font-size:18px;
+                    color:@black0000-color;
+                }
+                .yellow{
+                    color:@main-hover-color
+                }
+                .bought{
+                    font-size:18px;
+                    color:@black0-color;
+                    margin:21px 0;
+                }
+                .say{
+                    font-size:12px;
+                    color:@black000-color;
+                    letter-spacing:0;
+                    line-height:18px
+                }
+            }
+            .bottomRightBox{
+                padding:15px;
+                float:left;
+                font-size:12px;
+                width:78%;
+                .rightBox_Top{
+                    width:100%;
+                    .date{
+                        float:left;
+                        font-size:12px;
+                        color:@black000-color;
+                        letter-spacing:0
+                    }
+                }
+                .content{
+                    margin-top:21px;
+                    font-size:14px;
+                    color:@black00-color;
+                    letter-spacing:0;
+                    border-radius:3px
+                }
+                .reply{
+                    background: #f2f2f2;
+                }
+                .replyImg{
+                    width: 1.5%;
+                    height: 1.5%;
+                }
+                .replyFont{
+                    color:#333;
+                    font-weight:bold;
+                }
+            }
+
+        }
+    }
+
+    .ant-tabs-tab-prev{
+        display: none;
+    }
+    .ant-tabs-tab-next{
+        display: none;
+    }
+    .ant-pagination {
+        float:right;
+        margin-top:20px
+    }
+
+}

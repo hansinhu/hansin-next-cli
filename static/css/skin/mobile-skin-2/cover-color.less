@@ -1,0 +1,673 @@
+@import "./color.less";
+@yellow-color:#F8E71C;
+@yellow-deep:#F8E71C;
+@red-color:#F04134;
+@red-deep:#F04134;
+
+
+.luggage-module{
+	.timeBox{
+		opacity: .8;
+    	background: #333333;
+    	 .time{
+			.centerTimeBox{
+				dl{
+					dt{
+						color: #f4d739;
+						background: transparent;
+					}
+					dd{
+						color: #f4d739;
+					}
+				}
+			}
+    	 }
+	}
+}
+/*三种颜色通用样式*/
+//#4FBE60 
+.luggage-white{
+	.ant-btn-primary.ant-btn{
+		background-color: @black-color;
+		color: @white-color;
+		border-color: @black-color;
+	}
+	.ant-btn{
+		color: @black-color;
+	}
+	.ant-tabs-nav{
+		.ant-tabs-ink-bar{
+			background-color: @black-color;
+		}
+		.ant-tabs-tab-active{
+			color: @black-color;
+		}
+	} 
+	#mHeader{
+		.ant-badge-count {
+			background: @black-color !important;
+			span {
+				color: @white-color !important;
+			}
+		}
+		.top-info{
+			background-color:@white-color;
+			color: @black-color;
+			border-bottom:1px solid rgba(51, 51, 51, 0.3);
+			.nav-right{
+				.nav-item{
+					.nav-shop{
+						color: @black-color;
+					}
+				}
+			} 
+		}
+		.search-box{
+			.close{
+				.anticon{
+					color: @black-color;
+				}
+			}
+		}
+		.draw_menu{
+			background-color: #FFFFFF;
+			.menu-footer {
+				background:  @white-color;
+				color: @black-color;
+				border-top: .01333rem solid #ccc;
+				.footer-item-first {
+					color: @black-color;
+				}
+			}
+			.menu-items{
+				.item{
+					.item-wrap-active{
+						color: @black-color;
+						font-weight: bold;
+					}
+					.item-sub1 {
+	                    .item-active{
+	                        color: @black-color;
+							font-weight: bold;
+	                    }
+	                }
+	                .menu-check{
+	                	color: @black-color;
+						font-weight: bold;
+	                }
+				}
+			}
+		}
+	}
+	#mFooter{
+		.footer-wrapper{
+			.footer-content{
+				border-top: 1px solid @black0000-color;
+				background-color: @white-color;
+				.footer-bottom{
+					background: @white-color;
+					border-top: 1px solid @black0000-color;
+					p{
+						color: @black-color;
+					}
+				}
+				.footer-item{
+					.footer-header{
+						.header{
+							color: @black-color;
+						}
+					}
+					.items{
+						.item{
+							.font{
+								color: @black-color;
+							}
+							p{
+								color: @black-color;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.mpro-box{
+		.pro-btn{
+			.m-pro-btn{
+				background-color: @black-color;
+				color: @white-color;
+			}
+		}
+		.pro-img-box{
+			.tip-box{
+				background-color: @black-color;
+				.tips{
+					color: @black-color;
+				}
+				.tips-count{
+					color: @white-color;
+				}
+			}
+			.time-box{
+				padding: 0;
+				bottom: 0;
+				height: 1.0rem;
+				.time-inner{
+					border-radius: 0;
+					background: rgba(51,51,51, 0.8);
+					color: @white-color;
+				}
+			}
+		}
+	}
+	//列表页
+	.productMobile{
+		.sort{
+			.sort-contain{
+				.catalog{
+					background-color: @black-color;
+					color: @white-color;
+				}
+				.list-botton{
+					color: @black-color;
+					i{
+						color: @black-color;
+						border-color: @black-color;
+					}
+				}
+				.catalog-show {
+					.catalog-contain{
+						.part{
+							.content{
+								.group-click{
+									color: @white-color;
+									background-color: @black-color;
+								}
+							}
+						}
+						.botton{
+							.done{
+								color: @white-color;
+								background-color: @black-color;
+							}
+						} 
+					}
+				}
+			}
+		}
+		.list-contain{
+			.list-one{
+				.part{
+					.right-info{
+						.operate{
+							.botton{
+								background: @black-color;
+							    color: @white-color;
+							}
+						}
+						.sale{
+							.sale-span{
+								color: @black-color;
+								border-color: @black-color;
+							}
+							.sale-spans{
+								color: @white-color;
+								background: @black-color;
+    							border: .01333rem solid @black-color;
+							}
+						}
+						.time{
+							background-color: rgba(51,51,51,.8);
+							color: @white-color;
+						}
+					}
+				}
+			}
+		}
+	}
+	#mCompany{
+		.wrabox{
+			.bor_bt{
+				background: @black-color;
+			}
+		} 
+	}
+
+	#mContact{
+		.conbox{
+			.bor_bt{
+				background: @black-color;
+			}
+		} 
+	}
+}
+
+
+
+/*三种颜色通用样式*/
+//黄色
+.luggage-yellow{
+	.ant-btn-primary.ant-btn{
+		background-color: @yellow-color;
+		color: @black-color;
+		border-color: @yellow-color;
+	}
+	.ant-btn{
+		color: @black-color;
+	}
+	.ant-tabs-nav{
+		.ant-tabs-ink-bar{
+			background-color: @yellow-color;
+		}
+		.ant-tabs-tab-active{
+			color: @yellow-color;
+		}
+	} 
+	#mHeader{
+		.ant-badge-count {
+			background: @black-color !important;
+			span {
+				color: @white-color !important;
+			}
+		}
+		.top-info{
+			background-color:@yellow-color;
+			color: @black0-color;
+			border:1px solid rgba(51, 51, 51, 0.3);
+			.nav-right{
+				.nav-item{
+					.nav-shop{
+						color: @black0-color;
+					}
+				}
+			} 
+		}
+		.search-box{
+			.close{
+				.anticon{
+					color: @yellow-color;
+				}
+			}
+		}
+		.draw_menu{
+			background-color: #FFFAE0;
+			.menu-footer {
+				background:  @yellow-color;
+				color: @black-color;
+				.footer-item-first {
+					color: @black-color;
+				}
+			}
+			.menu-items{
+				.item{
+					.item-wrap-active{
+						color: @black-color;
+						font-weight: bold;
+					}
+					.item-sub1 {
+	                    .item-active{
+	                        color: @black-color;
+							font-weight: bold;
+	                    }
+	                }
+	                .menu-check{
+	                	color: @black-color;
+						font-weight: bold;
+	                }
+				}
+			}
+		}
+	}
+	#mFooter{
+		.footer-wrapper{
+			.footer-content{
+				background-color: #FFFAE0;
+				.footer-bottom{
+					background: @yellow-color;
+				}
+				.footer-item{
+					.footer-header{
+						.header{
+							color: @black0-color;
+						}
+					}
+					.items{
+						.item{
+							.font{
+								color: @black0-color;
+							}
+							p{
+								color: @black0-color;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.mpro-box{
+		.pro-btn{
+			.m-pro-btn{
+				background-color: @yellow-color;
+				color: @black0-color;
+			}
+		}
+		.pro-img-box{
+			.tip-box{
+				background-color: @yellow-color;
+				.tips{
+					color: @black-color;
+				}
+				.tips-count{
+					color: @black-color;
+				}
+			}
+			.time-box{
+				padding: 0;
+				bottom: 0;
+				height: 1.0rem;
+				.time-inner{
+					border-radius: 0;
+					background: rgba(51,51,51, 0.8);
+					color: @yellow-color;
+				}
+			}
+		}
+	}
+	//列表页
+	.productMobile{
+		.sort{
+			.sort-contain{
+				.catalog{
+					background-color: @yellow-color;
+					color: @black-color;
+				}
+				.list-botton{
+					color: @yellow-color;
+					i{
+						color: @yellow-color;
+						border: .01333rem solid @yellow-color;
+					}
+				}
+				.catalog-show {
+					.catalog-contain{
+						.part{
+							.content{
+								.group-click{
+									color: @black-color;
+									background-color: @yellow-color;
+								}
+							}
+						}
+						.botton{
+							.done{
+								color: @black-color;
+								background-color: @yellow-color;
+							}
+						} 
+					}
+				}
+			}
+		}
+		.list-contain{
+			.list-one{
+				.part{
+					.right-info{
+						.operate{
+							.botton{
+								background: @yellow-color;
+							    color: @black-color;
+							}
+						}
+						.sale{
+							.sale-span{
+								color: @yellow-color;
+								border-color: @yellow-color;
+							}
+							.sale-spans{
+								color: @black-color;
+								background: @yellow-color;
+    							border: .01333rem solid @yellow-color;
+							}
+						}
+						.time{
+							background-color: rgba(51,51,51,.8);
+							color: @yellow-color;
+						}
+					}
+				}
+			}
+		}
+	}
+	#mCompany{
+		.wrabox{
+			.bor_bt{
+				background: @yellow-color;
+			}
+		} 
+	}
+
+	#mContact{
+		.conbox{
+			.bor_bt{
+				background: @yellow-color;
+			}
+		} 
+	}
+}
+
+
+
+
+/*三种颜色通用样式*/
+//#红色
+.luggage-red{
+	.ant-btn-primary.ant-btn{
+		background-color: @red-color;
+		color: @white-color;
+		border-color: @yellow-color;
+	}
+	.ant-btn{
+		border-color: @red-color;
+		color: @red-color;
+	}
+	.ant-tabs-nav{
+		.ant-tabs-ink-bar{
+			background-color: @red-color;
+		}
+		.ant-tabs-tab-active{
+			color: @red-color;
+		}
+	}
+	#mHeader{
+		.ant-badge-count {
+			background: @black-color !important;
+			span {
+				color: @white-color !important;
+			}
+		}
+		.top-info{
+			background-color:@red-color;
+			color: @white-color;
+			border:1px solid rgba(51, 51, 51, 0.3);
+			.nav-right{
+				.nav-item{
+					.nav-shop{
+						color: @white-color;
+					}
+				}
+			} 
+		}
+		.search-box{
+			.close{
+				.anticon{
+					color: @red-color;
+				}
+			}
+		}
+		.draw_menu{
+			background-color: #FDECEA;
+			.menu-footer {
+				background:  @red-color;
+				color: @white-color;
+				.footer-item-first {
+					color: @white-color;
+				}
+			}
+			.menu-items{
+				.item{
+					.item-wrap-active{
+						color: @black-color;
+						font-weight: bold;
+					}
+					.item-sub1 {
+	                    .item-active{
+	                        color: @red-color;
+	                    }
+	                }
+	                .menu-check{
+	                	color: @red-color;
+	                }
+				}
+			}
+		}
+	}
+	#mFooter{
+		.footer-wrapper{
+			.footer-content{
+				background-color: rgba(240,65,52,0.10);
+				.footer-bottom{
+					background: @red-color;
+				}
+				.footer-item{
+					.footer-header{
+						.header{
+							color: @black0-color;
+						}
+					}
+					.items{
+						.item{
+							.font{
+								color: @black0-color;
+							}
+							p{
+								color: @black0-color;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.mpro-box{
+		.pro-btn{
+			.m-pro-btn{
+				background-color: @red-color;
+				color: @white-color;
+			}
+		}
+		.pro-img-box{
+			.tip-box{
+				background-color: @red-color;
+				.tips{
+					color: @red-color;
+				}
+				.tips-count{
+					color: @white-color;
+				}
+			}
+			.time-box{
+				padding: 0;
+				bottom: 0;
+				height: 1.0rem;
+				.time-inner{
+					border-radius: 0;
+					background: rgba(51,51,51, 0.1);
+					color: @red-color;
+				}
+			}
+		}
+	}
+	//列表页
+	.productMobile{
+		.sort{
+			.sort-contain{
+				.catalog{
+					background-color: @red-color;
+					color: @white-color;
+				}
+				.list-botton{
+					color: @red-color;
+					i{
+						color: @red-color;
+						border: .01333rem solid @red-color;
+					}
+				}
+				.catalog-show {
+					.catalog-contain{
+						.part{
+							.content{
+								.group-click{
+									color: @white-color;
+									background-color: @red-color;
+								}
+							}
+						}
+						.botton{
+							.done{
+								color: @white-color;
+								background-color: @red-color;
+							}
+						} 
+					}
+				}
+			}
+		}
+		.list-contain{
+			.list-one{
+				.part{
+					.right-info{
+						.operate{
+							.botton{
+								background: @red-color;
+							    color: @white-color;
+							}
+						}
+						.sale{
+							.sale-span{
+								color: @red-color;
+								border-color: @red-color;
+							}
+							.sale-spans{
+								color: @white-color;
+								background: @red-color;
+    							border: .01333rem solid @red-color;
+							}
+						}
+						.time{
+							background-color: rgba(51,51,51,.8);
+							color: @red-color;
+						}
+					}
+				}
+			}
+		}
+	}
+	#mCompany{
+		.wrabox{
+			.bor_bt{
+				background: @red-color;
+			}
+		} 
+	}
+
+	#mContact{
+		.conbox{
+			.bor_bt{
+				background: @red-color;
+			}
+		} 
+	}
+}
+
+

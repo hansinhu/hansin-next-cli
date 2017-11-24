@@ -1,0 +1,385 @@
+//@import "./color.less";
+.pc-home{
+  min-width: 1200px;
+  .ad-img-box{
+    position: relative;
+    max-height: 300px;
+    overflow: hidden;
+    .adver-img{
+      width:100%;
+      height: auto;
+      transition:transform .5s ease-in-out;
+      transform: scale(1);
+      -webkit-animation-name: fadeInOut;
+      -webkit-animation-timing-function: ease-in-out;
+      -webkit-animation-duration: 0.5s;
+    }
+    @-webkit-keyframes fadeInOut {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 0.3;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    .ad-img-a{
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      overflow: hidden;
+    }
+   
+   .ad-img-cover{
+      opacity: 0;
+      position: absolute;
+      padding: 20px;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      transition:opacity .5s ease-in-out;
+      .ad-cover-inner{
+        background-color: rgba(0,0,0,.3);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .inner-font{
+          color: #fff;
+          font-size: 24px;
+          // height: 250px;
+          // line-height: 250px;
+          text-align: center;
+          span{
+            display: inline-block;
+            border: 1px solid #fff;
+            line-height: 30px;
+            padding: 2px 20px;
+            font-size: 16px;
+          }
+        }
+      }
+   }
+   .ad-img-cover-jewelry{
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      transition:opacity .5s ease-in-out;
+      .ad-cover-inner{
+        background-color: rgba(51,51,51,.8);
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        .inner-font{
+          color: #fff;
+          font-size: 24px;
+          text-align: center;
+          span{
+            display: inline-block;
+            line-height: 30px;
+            font-size: 18px;
+            text-decoration: underline;
+          }
+        }
+      }
+     }
+
+  }
+  .ad-img-a:hover{
+    .ad-img-cover{
+      opacity: 1;
+    }
+    .ad-img-cover-jewelry{
+      opacity: 1;
+    }
+    .adver-img{
+      transform: scale(1.05);
+     }
+  }
+    
+
+  .banner{
+      margin-top: 0;
+  }
+  .banner-img-box{
+    max-height: 300px;
+    overflow: hidden;
+  }
+  .banner-img{
+      width:100%;
+      height: auto;
+      cursor: pointer;
+      -webkit-animation-name: fadeInOut;
+      -webkit-animation-timing-function: ease-in-out;
+      -webkit-animation-duration: 0.5s;
+  }
+  @-webkit-keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .banner-bottom{
+    height:80px;
+  }
+
+  .carousel{
+    max-height: 560px;
+    overflow: hidden;
+  }
+  .empty-carousel{
+    margin-top:20px;
+    margin-bottom:20px;
+    height: 300px;
+    background-color: #F2F2F2;
+  }
+  .carousel-img{
+    width: 100%;
+    height: auto;
+  }
+
+  .showcase{
+    margin-top:5px;
+    min-width: 1200px;
+    margin-bottom:80px;
+  }
+  .showcase:after{
+    content:".";
+   display:block;
+   height:0;
+   clear:both;
+   visibility:hidden;
+  }
+  .case-name{
+    font-size: 22px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    color: @primary-color;
+    span{
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .title-icon{
+      display: none;
+      position: static;
+    }
+    .case-jewelry{
+      display: none;
+      height: 3px;
+      line-height: 10px;
+      span{
+        height: 3px;
+        width: 23px;
+        display: inline-block;
+      }
+    }
+    
+  }
+  .showcase-img{
+    width:100%;
+    cursor: pointer;
+  }
+
+  .empty-showcase-box{
+    margin-top:20px;
+    margin-bottom:20px;
+    .empty-showcase{
+      height:300px;
+      background-color: #F2F2F2;
+      .empty-top{
+        height: 250px;
+        border-bottom: 10px solid #fff;
+      }
+      
+    }
+    
+  }
+}
+
+.title-icon{
+  width: 22px;
+  height: 22px;
+  line-height: 3px;
+  display: none;
+  overflow: hidden;
+  margin-right: 5px;
+  position: absolute;
+  left: -15px;
+  top: 5px;
+  i{
+    display:inline-block;
+    width: 50px;
+    line-height: 20px;
+    border-bottom: 3px solid @main-color;
+  }
+  .title-i-1{
+    margin-left: 10px;
+  }
+}
+
+.active-modal-cover{
+  position: fixed;
+  background-color: rgba(0,0,0,0);
+  bottom:70px;
+  right: 0;
+  z-index: 999;
+  //transition: all 0.2s;
+  .pro-modal{
+    position: relative;
+    padding: 15px;
+    width: 368px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius:4px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.3);
+    .title-line{
+      margin-top: 20px;
+      height: 2px;
+      background-color: @main-color;
+    }
+    .modal-pro-title{
+      font-size: 18px;
+      float: left;
+      vertical-align: middle;
+    }
+    
+    .card-box{
+      .is-active{
+        background-color: #FF3A5D;
+      }
+      .is-disable{
+        background-color: #8D99AE;
+      }
+      .card-content{
+        position: relative;
+        margin-bottom: 8px;
+        padding: 10px;
+        border: 1px solid #eee;
+        border-radius: 4px 4px 0 0;
+        color: #fff;
+        border-bottom: 2px dotted;
+        .card-name{
+          font-size: 18px;
+          word-break: break-all;
+          display: -webkit-box!important;
+          text-overflow: ellipsis;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          padding-right: 50px;
+        }
+        .discount-money{
+          font-size: 16px;
+          float: right;
+          position: absolute;
+          top: 0;
+          right: 5px;
+          height: 70px;
+          line-height: 70px;
+        }
+        .more-money{
+          height: 24px;
+          line-height: 24px;
+        }
+        .discount-time{
+          height: 24px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+  .modal-footer{
+    height: 0;
+    text-align:right;
+    position: absolute;
+    bottom: -11px;
+    right: 0;
+  }
+  .coupon-btn{
+      display: inline-block;
+      text-align: center;
+      width: 240px;
+      height: 48px;
+      line-height: 48px;
+      background-color: #FF3A5D;
+      color: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 18px;
+      user-select: none;
+    }
+
+  
+  .modal-img-box{
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .modal-pro-img{
+    width:100%;
+  }
+  .modal-pro-name{
+    font-size: 16px;
+    line-height: 22px;
+    color:@black-color;
+  }
+  .modal-pro-size{
+    font-size: 16px;
+    height: 22px;
+    line-height: 22px;
+    color:@black000-color;
+  }
+  .modal-cart{
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    color: @black000-color;
+  }
+  .modal-total-pro{
+    float:right;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    color: @black-color;
+    button{
+      padding: 0 30px;
+    }
+  }
+}
+
+.coupon-btn-bottom{
+  display: inline-block;
+  text-align: center;
+  width: 240px;
+  height: 48px;
+  line-height: 48px;
+  background-color: #FF3A5D;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  position: fixed;
+  bottom: 12px;
+  right: 17px;
+  z-index: 99;
+  user-select: none;
+}

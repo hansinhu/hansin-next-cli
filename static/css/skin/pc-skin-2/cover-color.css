@@ -1,0 +1,971 @@
+.luggage-module .pro-box .pro-info .pro-price {
+  color: #F04134;
+}
+.luggage-module .timeBox {
+  opacity: .8;
+  background: #333333;
+}
+.luggage-module .timeBox .time .leftTextBox {
+  color: #f4d739;
+}
+.luggage-module .timeBox .time .centerTimeBox dl dt {
+  color: #f4d739;
+  background: transparent;
+}
+.luggage-module .timeBox .time .centerTimeBox dl dd {
+  color: #f4d739;
+}
+.luggage-module .timeBox .time .rightAllBox a {
+  color: #f4d739;
+}
+/*三种颜色通用样式*/
+.luggage-white .ant-pagination-item-active {
+  background-color: #000000;
+  border-color: #000000;
+}
+.luggage-white .ant-btn-primary.ant-btn {
+  color: #FFF;
+  background-color: #000000;
+  border-color: #000000;
+}
+.luggage-white .ant-btn-primary.ant-btn:hover {
+  color: #FFF;
+  background-color: #000;
+  border-color: #000;
+}
+.luggage-white .ant-btn-primary.ant-btn:focus {
+  color: #FFF;
+  background-color: #000;
+  border-color: #000;
+}
+.luggage-white .ant-btn-primary.ant-btn:active {
+  color: #FFF;
+  background-color: #000;
+  border-color: #000;
+}
+.luggage-white .ant-btn-primary.ant-btn.active {
+  color: #FFF;
+  background-color: #000;
+  border-color: #000;
+}
+.luggage-white .ant-checkbox-group .ant-checkbox-group-item .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #000000;
+}
+.luggage-white .ant-checkbox-wrapper:hover .ant-checkbox-inner {
+  border: 1px solid #000000;
+}
+.luggage-white .ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: #000000;
+}
+.luggage-white .pc-carousel .ant-carousel .slick-slider .slick-dots {
+  bottom: 24px;
+}
+.luggage-white .pc-carousel .ant-carousel .slick-slider .slick-dots li button {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  margin-left: 12px;
+}
+.luggage-white .pc-carousel .ant-carousel .slick-slider .slick-dots li.slick-active button {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  margin-left: 12px;
+}
+.luggage-white .ant-rate-star-full .ant-rate-star-second,
+.luggage-white .ant-rate-star-half .ant-rate-star-first {
+  color: #FFB822;
+}
+.luggage-white .time-box {
+  font-family: Arial-BoldMT;
+  padding: 0 30px;
+  height: 56px;
+}
+.luggage-white .time-box .time-inner {
+  background-color: rgba(51, 51, 51, 0.8);
+  padding: 0 10px;
+  border-radius: 0;
+  color: #FFF;
+  border-radius: 4px;
+}
+.luggage-white .time-box .time-inner .time-count {
+  font-size: 18px;
+  line-height: 26px;
+}
+.luggage-white .pro-oprate .icons {
+  margin-right: 5px;
+  cursor: pointer;
+  color: #000000;
+}
+.luggage-white .pro-oprate .icons a:hover {
+  color: #F04134;
+}
+.luggage-white .pro-oprate .icons .anticon.anticon-heart {
+  color: #F04134;
+}
+.luggage-white .pro-oprate .icons:hover {
+  color: #F04134;
+}
+.luggage-white .pro-oprate .icons:hover .anticon-heart-o:before {
+  content: "\e6a3";
+}
+.luggage-white .ant-btn:hover {
+  color: #000;
+  border-color: #000;
+}
+.luggage-white .ant-btn:focus {
+  color: #000;
+  border-color: #000;
+}
+.luggage-white .ant-btn:active {
+  color: #000;
+  border-color: #000;
+}
+.luggage-white .ant-btn.active {
+  color: #000;
+  border-color: #000;
+}
+.luggage-white .pro-box .pro-box-inner .flex-width .pro-img-box .tip-box-two {
+  border: 2px solid #000;
+  background-color: #000;
+}
+.luggage-white .pro-box .pro-box-inner .flex-width .pro-img-box .tip-box-two .tips-count {
+  color: #FFF;
+}
+.luggage-white .pro-box .modal-cover .pro-modal .modal-pro-title .anticon {
+  color: #000;
+}
+.luggage-white #pHeader .top-info4,
+.luggage-white #pHeader .nav-item a {
+  color: #000;
+}
+.luggage-white #pHeader .nav-wrapper-4 .ant-menu-submenu > .ant-menu {
+  background: #FFF;
+}
+.luggage-white #pHeader .nav-wrapper-4 .ant-menu-horizontal .ant-menu-vertical .ant-menu-item:hover,
+.luggage-white #pHeader .nav-wrapper-4 .ant-menu-vertical .ant-menu-submenu-title:hover {
+  background: #000 !important;
+}
+.luggage-white #pHeader .nav-wrapper-4 .ant-menu-horizontal .ant-menu-item-selected .nav-font span,
+.luggage-white #pHeader .nav-wrapper-4 .ant-menu-horizontal .ant-menu-submenu:hover .nav-font span,
+.luggage-white #pHeader .nav-wrapper-4 .ant-menu .ant-menu-item:hover .nav-font span,
+.luggage-white #pHeader .nav-wrapper-4 .ant-menu-horizontal > .ant-menu-item:hover .nav-font,
+.luggage-white #pHeader .nav-wrapper-4 .ant-menu-horizontal > .ant-menu-item:hover a {
+  color: #666 !important;
+}
+.luggage-white #pHeader .nav-wrapper-4 .menu-subMenu-change.ant-menu-submenu-active .ant-menu-submenu-title {
+  background: #000 !important;
+  color: #FFF !important;
+}
+.luggage-white #pHeader .nav-wrapper-4 .ant-menu .ant-menu-item:hover a,
+.luggage-white #pHeader .nav-wrapper-4 .ant-menu-vertical .ant-menu-submenu-title:hover,
+.luggage-white #pHeader .nav-wrapper-4 .ant-menu-horizontal .ant-menu-vertical .ant-menu-item:hover a {
+  color: #FFF !important;
+}
+.luggage-white #pHeader .nav-wrapper-4 .ant-menu-horizontal .ant-menu-submenu-vertical.ant-menu-submenu-selected .ant-menu-submenu-title {
+  background: #000;
+  color: #FFF;
+}
+.luggage-white #pHeader .nav-wrapper-4 .menu-subMenu-item .ant-menu-item {
+  background: #000;
+}
+.luggage-white #pHeader .nav-wrapper-4 .menu-subMenu-item .ant-menu-item a {
+  color: #FFF;
+}
+.luggage-white #pHeader .nav-wrapper-4 .menu-subMenu-item .ant-menu-item.ant-menu-item-selected {
+  background: #FFF;
+}
+.luggage-white #pHeader .nav-wrapper-4 .menu-subMenu-item .ant-menu-item.ant-menu-item-selected a {
+  color: #000 !important;
+}
+.luggage-white #pHeader .ant-menu-horizontal .ant-menu-item-selected {
+  border-bottom: 4px solid #000000;
+}
+.luggage-white #pHeader .ant-menu-horizontal .ant-menu-item-selected .nav-font {
+  color: #000000;
+}
+.luggage-white #pHeader .ant-menu-horizontal .ant-menu-itemhover {
+  border-bottom: 4px solid #000000;
+}
+.luggage-white #pHeader .ant-menu-horizontal .ant-menu-item .nav-font:hover {
+  color: #000000;
+}
+.luggage-white #pHeader .ant-menu-horizontal .ant-menu-submenu-selected {
+  border-bottom: 4px solid #000000;
+}
+.luggage-white #pHeader .ant-menu-horizontal .ant-menu-submenu-selected .nav-font {
+  color: #000000;
+}
+.luggage-white #pHeader .ant-menu-horizontal .ant-menu-submenuhover {
+  border-bottom: 4px solid #000000;
+}
+.luggage-white #pHeader .ant-menu-horizontal .ant-menu-submenu .nav-font:hover {
+  color: #000000;
+}
+.luggage-white #pHeader .search-box,
+.luggage-white #pHeader .top-info,
+.luggage-white #pHeader .footer-wrapper {
+  background: #FFF;
+}
+.luggage-white #pHeader .nav-wrapper .icon-extra {
+  color: #999999;
+}
+.luggage-white #pHeader .nav-wrapper .nav-item .btn-login a,
+.luggage-white #pHeader .nav-wrapper .nav-item span,
+.luggage-white #pHeader .nav-wrapper .nav-item .btn-login,
+.luggage-white #pHeader .nav-wrapper .nav-item span a {
+  color: #999999;
+}
+.luggage-white #pHeader .nav-font {
+  color: #000000;
+  font-weight: normal;
+}
+.luggage-white #pHeader .search-box {
+  border-bottom: none;
+}
+.luggage-white #pHeader .search-box .input-wrapper .btn-search {
+  background: #FFF;
+  border: 1px solid #d9d9d9;
+  border-left: none;
+  color: #d9d9d9;
+}
+.luggage-white #pHeader .search-box .input-wrapper .ant-input {
+  background: #FFF;
+  color: #000000;
+}
+.luggage-white #pHeader .search-box .ant-input:hover {
+  border-color: #d9d9d9;
+}
+.luggage-white #pHeader .search-box .ant-input:focus {
+  border-color: #d9d9d9;
+  box-shadow: none;
+}
+.luggage-white #pFooter .footer-wrapper {
+  color: #666666;
+  background: #FFF;
+}
+.luggage-white #pFooter .footer-wrapper .footer-content {
+  border-top: 1px solid #ccc;
+}
+.luggage-white #pFooter .footer-wrapper .footer-content .font {
+  color: #666666;
+}
+.luggage-white #pFooter .footer-wrapper .footer-content .title {
+  color: #666666;
+}
+.luggage-white #pFooter .footer-wrapper .footer-content .title .title-icon {
+  display: none;
+}
+.luggage-white #pFooter .footer-wrapper .rights {
+  background: #FFF;
+  border-top: 1px solid #ccc;
+}
+.luggage-white .pc-home .ad-img-box .ad-img-cover .ad-cover-inner {
+  background: rgba(79, 190, 96, 0.2);
+}
+.luggage-white .productPage .productList .part .right-info .photo .img-pick {
+  border: 1px solid transparent;
+}
+.luggage-white .productPage .productList .part .right-info .photo .img-active {
+  border: 1px solid #000000;
+}
+.luggage-white .productPage .productList .part .right-info .time {
+  background-color: transparent;
+  border: 1px solid #000000;
+  color: #000000;
+}
+.luggage-white .productPage .productList .part .right-info .sale {
+  display: none;
+}
+.luggage-white .productPage .productList .part .right-info .tip-box-skint {
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  padding: 0 20px;
+  background-color: #000000;
+  color: #FFF;
+  height: 28px;
+  line-height: 28px;
+}
+.luggage-white .productPage .productList .part .right-info .operate .icon-heart:hover {
+  color: #F04134;
+}
+.luggage-white .productPage .productList .part .right-info .operate .anticon-heart {
+  color: #F04134;
+}
+.luggage-white .productPage .productList .part .right-info .operate .icon-eyesss {
+  color: #666666;
+}
+.luggage-white .productPage .productList .part .right-info .operate .icon-eyesss:hover {
+  color: #F04134;
+}
+.luggage-white .productPage .productList .part .right-info .operate .icon-p:hover {
+  color: #F04134;
+}
+.luggage-white .productPage .sort .sortType-choose {
+  color: #FFF;
+  background: #000000;
+  border: 1px solid #000000;
+}
+.luggage-white .pd-contain .magnifier-wrap .img-list li.active::after {
+  border-color: #000000;
+}
+.luggage-white .pd-contain .spec-list .list-con li.active::before {
+  border-color: #000000;
+}
+.luggage-white .pd-contain .do-price .do-price-discount {
+  background: #000000;
+  color: #FFF;
+}
+.luggage-white #pCompany .wrabox .bor_bt {
+  background: #000000;
+}
+.luggage-white #pContact .conbox .bor_bt {
+  background: #000000;
+}
+/*三种颜色通用样式*/
+.luggage-yellow .ant-pagination-item-active {
+  background-color: #F8E71C;
+  border-color: #F8E71C;
+}
+.luggage-yellow .ant-btn-primary.ant-btn {
+  color: #333333;
+  background-color: #F8E71C;
+  border-color: #F8E71C;
+}
+.luggage-yellow .ant-btn-primary.ant-btn:hover {
+  color: #FFF;
+  background-color: #F8E71C;
+  border-color: #F8E71C;
+}
+.luggage-yellow .ant-btn-primary.ant-btn:focus {
+  color: #333333;
+  background-color: #F8E71C;
+  border-color: #F8E71C;
+}
+.luggage-yellow .ant-btn-primary.ant-btn:active {
+  color: #333333;
+  background-color: #F8E71C;
+  border-color: #F8E71C;
+}
+.luggage-yellow .ant-btn-primary.ant-btn.active {
+  color: #333333;
+  background-color: #F8E71C;
+  border-color: #F8E71C;
+}
+.luggage-yellow .ant-checkbox-group .ant-checkbox-group-item .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #F8E71C;
+}
+.luggage-yellow .ant-checkbox-wrapper:hover .ant-checkbox-inner {
+  border: 1px solid #F8E71C;
+}
+.luggage-yellow .ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: #F8E71C;
+}
+.luggage-yellow .pc-carousel .ant-carousel .slick-slider .slick-dots {
+  bottom: 24px;
+}
+.luggage-yellow .pc-carousel .ant-carousel .slick-slider .slick-dots li button {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #F8E71C;
+  margin-left: 12px;
+}
+.luggage-yellow .pc-carousel .ant-carousel .slick-slider .slick-dots li.slick-active button {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #F8E71C;
+}
+.luggage-yellow .ant-rate-star-full .ant-rate-star-second,
+.luggage-yellow .ant-rate-star-half .ant-rate-star-first {
+  color: #F8E71C;
+}
+.luggage-yellow .time-box {
+  font-family: Arial-BoldMT;
+  padding: 0 30px;
+  height: 56px;
+}
+.luggage-yellow .time-box .time-inner {
+  background-color: rgba(51, 51, 51, 0.8);
+  padding: 0 10px;
+  border-radius: 0;
+  color: #FFF;
+  border-radius: 4px;
+}
+.luggage-yellow .time-box .time-inner .time-count {
+  font-size: 18px;
+  line-height: 26px;
+}
+.luggage-yellow .pro-oprate .icons {
+  margin-right: 5px;
+  cursor: pointer;
+  color: #000000;
+}
+.luggage-yellow .pro-oprate .icons a:hover {
+  color: #F04134;
+}
+.luggage-yellow .pro-oprate .icons .anticon.anticon-heart {
+  color: #F04134;
+}
+.luggage-yellow .pro-oprate .icons:hover {
+  color: #F04134;
+}
+.luggage-yellow .pro-oprate .icons:hover .anticon-heart-o:before {
+  content: "\e6a3";
+}
+.luggage-yellow .ant-btn:hover {
+  color: #F8E71C;
+  border-color: #F8E71C;
+}
+.luggage-yellow .ant-btn:focus {
+  color: #F8E71C;
+  border-color: #F8E71C;
+}
+.luggage-yellow .ant-btn:active {
+  color: #F8E71C;
+  border-color: #F8E71C;
+}
+.luggage-yellow .ant-btn.active {
+  color: #F8E71C;
+  border-color: #F8E71C;
+}
+.luggage-yellow .ant-tabs-nav .ant-tabs-tab-active {
+  color: #F8E71C;
+}
+.luggage-yellow .ant-tabs-nav .ant-tabs-ink-bar {
+  background-color: #F8E71C;
+}
+.luggage-yellow .pro-box .pro-box-inner .flex-width .pro-img-box .tip-box-two {
+  border: 2px solid #F8E71C;
+  background-color: #F8E71C;
+}
+.luggage-yellow .pro-box .pro-box-inner .flex-width .pro-img-box .tip-box-two .tips-count {
+  color: #000000;
+}
+.luggage-yellow .pro-box .modal-cover .pro-modal .modal-pro-title .anticon {
+  color: #F8E71C;
+}
+.luggage-yellow #pHeader .top-info4,
+.luggage-yellow #pHeader .nav-item a {
+  color: #000;
+}
+.luggage-yellow #pHeader .nav-wrapper-4,
+.luggage-yellow #pHeader .nav-content-inner,
+.luggage-yellow #pHeader .nav-content-inner .ant-menu {
+  background: #FFFAE0;
+}
+.luggage-yellow #pHeader .nav-wrapper-4 .ant-menu-submenu > .ant-menu {
+  background: #F8E71C !important;
+}
+.luggage-yellow #pHeader .nav-wrapper-4 .ant-menu-vertical .ant-menu-submenu-title:hover,
+.luggage-yellow #pHeader .nav-wrapper-4 .ant-menu .ant-menu-item:hover,
+.luggage-yellow #pHeader .nav-wrapper-4 .ant-menu-horizontal .ant-menu-item-selected {
+  background: #FFFAE0 !important;
+}
+.luggage-yellow #pHeader .nav-wrapper-4 .menu-subMenu-change.ant-menu-submenu-active .ant-menu-submenu-title {
+  background: #FFFAE0 !important;
+}
+.luggage-yellow #pHeader .nav-wrapper-4 .ant-menu .ant-menu-item:hover a {
+  color: #2b2d42 !important;
+}
+.luggage-yellow #pHeader .nav-wrapper-4 .ant-menu-horizontal .ant-menu-item-selected a {
+  color: #2b2d42 !important;
+}
+.luggage-yellow #pHeader .nav-wrapper-4 .ant-menu-horizontal .ant-menu-submenu-vertical.ant-menu-submenu-selected .ant-menu-submenu-title {
+  background: #FFFAE0;
+}
+.luggage-yellow #pHeader .nav-wrapper-4 .ant-menu-horizontal > .ant-menu-item:hover .nav-font,
+.luggage-yellow #pHeader .nav-wrapper-4 .ant-menu-horizontal > .ant-menu-item:hover a {
+  color: #F8E71C !important;
+}
+.luggage-yellow #pHeader .ant-menu-horizontal .ant-menu-item-selected {
+  border-bottom: 4px solid #F8E71C;
+}
+.luggage-yellow #pHeader .ant-menu-horizontal .ant-menu-item-selected .nav-font {
+  color: #F8E71C;
+}
+.luggage-yellow #pHeader .ant-menu-horizontal .ant-menu-itemhover {
+  border-bottom: 4px solid #F8E71C;
+}
+.luggage-yellow #pHeader .ant-menu-horizontal .ant-menu-item .nav-font:hover {
+  color: #F8E71C;
+}
+.luggage-yellow #pHeader .ant-menu-horizontal .ant-menu-submenu-selected {
+  border-bottom: 4px solid #F8E71C;
+}
+.luggage-yellow #pHeader .ant-menu-horizontal .ant-menu-submenu-selected .nav-font {
+  color: #F8E71C;
+}
+.luggage-yellow #pHeader .ant-menu-horizontal .ant-menu-submenuhover {
+  border-bottom: 4px solid #F8E71C;
+}
+.luggage-yellow #pHeader .ant-menu-horizontal .ant-menu-submenu .nav-font:hover {
+  color: #F8E71C;
+}
+.luggage-yellow #pHeader .footer-wrapper {
+  background: #FFF;
+}
+.luggage-yellow #pHeader .search-box {
+  background: rgba(255, 214, 19, 0.13);
+}
+.luggage-yellow #pHeader .top-info {
+  background-color: #F8E71C;
+}
+.luggage-yellow #pHeader .top-info .nav-wrapper .icon-extra {
+  color: #999999;
+}
+.luggage-yellow #pHeader .top-info .nav-wrapper .icon {
+  color: #000000;
+}
+.luggage-yellow #pHeader .top-info .nav-wrapper .nav-item .btn-login a,
+.luggage-yellow #pHeader .top-info .nav-wrapper .nav-item span,
+.luggage-yellow #pHeader .top-info .nav-wrapper .nav-item .btn-login,
+.luggage-yellow #pHeader .top-info .nav-wrapper .nav-item span a {
+  color: #000000;
+}
+.luggage-yellow #pHeader .nav-font {
+  color: #000000;
+  font-weight: normal;
+}
+.luggage-yellow #pHeader .search-box {
+  border-bottom: none;
+}
+.luggage-yellow #pHeader .search-box .input-wrapper .btn-search {
+  background: #FFF;
+  border: 1px solid #d9d9d9;
+  border-left: none;
+  color: #d9d9d9;
+}
+.luggage-yellow #pHeader .search-box .input-wrapper .ant-input {
+  background: #FFF;
+  color: #000000;
+}
+.luggage-yellow #pHeader .search-box .ant-input:hover {
+  border-color: #d9d9d9;
+}
+.luggage-yellow #pHeader .search-box .ant-input:focus {
+  border-color: #d9d9d9;
+  box-shadow: none;
+}
+.luggage-yellow #pFooter .footer-wrapper {
+  color: #666666;
+  background: rgba(255, 214, 19, 0.13);
+}
+.luggage-yellow #pFooter .footer-wrapper .footer-content {
+  border-top: 1px solid #ccc;
+}
+.luggage-yellow #pFooter .footer-wrapper .footer-content .font {
+  color: #F8E71C;
+}
+.luggage-yellow #pFooter .footer-wrapper .footer-content .title {
+  color: #666666;
+}
+.luggage-yellow #pFooter .footer-wrapper .footer-content .title .title-icon {
+  display: none;
+}
+.luggage-yellow #pFooter .footer-wrapper .rights {
+  background: #F8E81C;
+  border-top: 1px solid #ccc;
+}
+.luggage-yellow .pc-home .ad-img-box .ad-img-cover .ad-cover-inner {
+  background: rgba(68, 168, 242, 0.2);
+}
+.luggage-yellow .productPage .productList .part .right-info .photo .img-pick {
+  border: 1px solid transparent;
+}
+.luggage-yellow .productPage .productList .part .right-info .photo .img-active {
+  border: 1px solid #F8E71C;
+}
+.luggage-yellow .productPage .productList .part .right-info .time {
+  background-color: transparent;
+  border: 1px solid #F8E71C;
+  color: #F8E71C;
+}
+.luggage-yellow .productPage .productList .part .right-info .sale {
+  display: none;
+}
+.luggage-yellow .productPage .productList .part .right-info .tip-box-skint {
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  padding: 0 20px;
+  background-color: #F8E71C;
+  color: #FFF;
+  height: 28px;
+  line-height: 28px;
+}
+.luggage-yellow .productPage .productList .part .right-info .operate .icon-heart:hover {
+  color: #F04134;
+}
+.luggage-yellow .productPage .productList .part .right-info .operate .anticon-heart {
+  color: #F04134;
+}
+.luggage-yellow .productPage .productList .part .right-info .operate .icon-eyesss {
+  color: #666666;
+}
+.luggage-yellow .productPage .productList .part .right-info .operate .icon-eyesss:hover {
+  color: #F04134;
+}
+.luggage-yellow .productPage .productList .part .right-info .operate .icon-p:hover {
+  color: #F04134;
+}
+.luggage-yellow .productPage .sort .sortType-choose {
+  color: #FFF;
+  background: #F8E71C;
+  border: 1px solid #F8E71C;
+}
+.luggage-yellow .pd-contain .magnifier-wrap .img-list li.active::after {
+  border-color: #F8E71C;
+}
+.luggage-yellow .pd-contain .spec-list .list-con li.active::before {
+  border-color: #F8E71C;
+}
+.luggage-yellow .pd-contain .do-price .do-price-discount {
+  background: #F8E71C;
+  color: #FFF;
+}
+.luggage-yellow #pCompany .wrabox .bor_bt {
+  background: #F8E71C;
+}
+.luggage-yellow #pContact .conbox .bor_bt {
+  background: #F8E71C;
+}
+/*三种颜色通用样式*/
+.luggage-red {
+  /*Input*/
+}
+.luggage-red .ant-pagination-item-active {
+  background-color: #F04134;
+  border-color: #F04134;
+}
+.luggage-red .ant-btn-primary.ant-btn {
+  color: #FFF;
+  background-color: #F04134;
+  border-color: #F04134;
+}
+.luggage-red .ant-btn-primary.ant-btn:hover {
+  color: #FFF;
+  background-color: #F04134;
+  border-color: #F04134;
+}
+.luggage-red .ant-btn-primary.ant-btn:focus {
+  color: #FFF;
+  background-color: #F04134;
+  border-color: #F04134;
+}
+.luggage-red .ant-btn-primary.ant-btn:active {
+  color: #FFF;
+  background-color: #F04134;
+  border-color: #F04134;
+}
+.luggage-red .ant-btn-primary.ant-btn.active {
+  color: #FFF;
+  background-color: #F04134;
+  border-color: #F04134;
+}
+.luggage-red .ant-checkbox-group .ant-checkbox-group-item .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #F04134;
+}
+.luggage-red .ant-checkbox-wrapper:hover .ant-checkbox-inner {
+  border: 1px solid #F04134;
+}
+.luggage-red .ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: #F04134;
+}
+.luggage-red .ant-input:hover {
+  border-color: #666666;
+}
+.luggage-red .ant-input:focus {
+  border-color: #666666;
+  box-shadow: 0 0 0 0 transparent;
+}
+.luggage-red .ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled) {
+  border-color: #666666;
+}
+.luggage-red .ant-select-open .ant-select-selection {
+  border-color: #666666;
+  box-shadow: 0 0 0 0 transparent;
+}
+.luggage-red .ant-select-selection:hover {
+  border-color: #666666;
+}
+.luggage-red .pc-carousel .ant-carousel .slick-slider .slick-dots {
+  bottom: 24px;
+}
+.luggage-red .pc-carousel .ant-carousel .slick-slider .slick-dots li button {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #F04134;
+  margin-left: 12px;
+}
+.luggage-red .pc-carousel .ant-carousel .slick-slider .slick-dots li.slick-active button {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #F04134;
+}
+.luggage-red .ant-rate-star-full .ant-rate-star-second,
+.luggage-red .ant-rate-star-half .ant-rate-star-first {
+  color: #F04134;
+}
+.luggage-red .time-box {
+  font-family: Arial-BoldMT;
+  padding: 0 30px;
+  height: 56px;
+  border-radius: 0;
+}
+.luggage-red .time-box .time-inner {
+  background-color: rgba(51, 51, 51, 0.8);
+  padding: 0 10px;
+  color: #FFF;
+  border-radius: 4px;
+}
+.luggage-red .time-box .time-inner .time-count {
+  font-size: 18px;
+  line-height: 26px;
+}
+.luggage-red .pro-oprate .icons {
+  margin-right: 5px;
+  cursor: pointer;
+  color: #000000;
+}
+.luggage-red .pro-oprate .icons a:hover {
+  color: #F04134;
+}
+.luggage-red .pro-oprate .icons .anticon.anticon-heart {
+  color: #F04134;
+}
+.luggage-red .pro-oprate .icons:hover {
+  color: #F04134;
+}
+.luggage-red .pro-oprate .icons:hover .anticon-heart-o:before {
+  content: "\e6a3";
+}
+.luggage-red .ant-btn:hover {
+  color: #F04134;
+  border-color: #F04134;
+}
+.luggage-red .ant-btn:focus {
+  color: #F04134;
+  border-color: #F04134;
+}
+.luggage-red .ant-btn:active {
+  color: #F04134;
+  border-color: #F04134;
+}
+.luggage-red .ant-btn.active {
+  color: #F04134;
+  border-color: #F04134;
+}
+.luggage-red .ant-tabs-nav .ant-tabs-tab-active {
+  color: #F04134;
+}
+.luggage-red .ant-tabs-nav .ant-tabs-ink-bar {
+  background-color: #F04134;
+}
+.luggage-red .pro-box .pro-box-inner .flex-width .pro-img-box .tip-box-two {
+  border: 2px solid #F04134;
+  background-color: #F04134;
+}
+.luggage-red .pro-box .pro-box-inner .flex-width .pro-img-box .tip-box-two .tips-count {
+  color: #FFF;
+}
+.luggage-red .pro-box .modal-cover .pro-modal .modal-pro-title .anticon {
+  color: #F04134;
+}
+.luggage-red #pHeader .top-info4,
+.luggage-red #pHeader .nav-item a {
+  color: #FFF;
+}
+.luggage-red #pHeader .nav-wrapper-4,
+.luggage-red #pHeader .nav-content-inner,
+.luggage-red #pHeader .nav-content-inner .ant-menu {
+  background: #FCE7E4;
+}
+.luggage-red #pHeader .nav-wrapper-4 .ant-menu-submenu > .ant-menu {
+  background: #F04134 !important;
+}
+.luggage-red #pHeader .nav-wrapper-4 .ant-menu-vertical .ant-menu-submenu-title:hover,
+.luggage-red #pHeader .nav-wrapper-4 .ant-menu .ant-menu-item:hover,
+.luggage-red #pHeader .nav-wrapper-4 .ant-menu-horizontal .ant-menu-item-selected {
+  background: #FCE7E4 !important;
+}
+.luggage-red #pHeader .nav-wrapper-4 .menu-subMenu-change.ant-menu-submenu-active .ant-menu-submenu-title {
+  background: #FCE7E4 !important;
+}
+.luggage-red #pHeader .nav-wrapper-4 .ant-menu .ant-menu-item:hover a {
+  color: #2b2d42 !important;
+}
+.luggage-red #pHeader .nav-wrapper-4 .ant-menu-horizontal .ant-menu-item-selected a {
+  color: #2b2d42 !important;
+}
+.luggage-red #pHeader .nav-wrapper-4 .ant-menu-horizontal .ant-menu-submenu-vertical.ant-menu-submenu-selected .ant-menu-submenu-title {
+  background: #FCE7E4;
+}
+.luggage-red #pHeader .nav-wrapper-4 .ant-menu-horizontal > .ant-menu-item:hover a,
+.luggage-red #pHeader .nav-wrapper-4 .ant-menu-horizontal > .ant-menu-item:hover .nav-font {
+  color: #F04134 !important;
+}
+.luggage-red #pHeader .ant-menu-horizontal .ant-menu-item-selected {
+  border-bottom: 4px solid #F04134;
+}
+.luggage-red #pHeader .ant-menu-horizontal .ant-menu-item-selected .nav-font {
+  color: #F04134;
+}
+.luggage-red #pHeader .ant-menu-horizontal .ant-menu-itemhover {
+  border-bottom: 4px solid #F04134;
+}
+.luggage-red #pHeader .ant-menu-horizontal .ant-menu-item .nav-font:hover {
+  color: #F04134;
+}
+.luggage-red #pHeader .ant-menu-horizontal .ant-menu-submenu-selected {
+  border-bottom: 4px solid #F04134;
+}
+.luggage-red #pHeader .ant-menu-horizontal .ant-menu-submenu-selected .nav-font {
+  color: #F04134;
+}
+.luggage-red #pHeader .ant-menu-horizontal .ant-menu-submenuhover {
+  border-bottom: 4px solid #F04134;
+}
+.luggage-red #pHeader .ant-menu-horizontal .ant-menu-submenu .nav-font:hover {
+  color: #F04134;
+}
+.luggage-red #pHeader .footer-wrapper {
+  background: #FFF;
+}
+.luggage-red #pHeader .search-box {
+  background: #FCE7E4;
+}
+.luggage-red #pHeader .top-info {
+  background-color: #F04134;
+  color: #FFF;
+}
+.luggage-red #pHeader .top-info .nav-wrapper .icon-extra {
+  color: #FFF;
+}
+.luggage-red #pHeader .top-info .nav-wrapper .icon {
+  color: #FFF;
+}
+.luggage-red #pHeader .top-info .nav-wrapper .nav-item .btn-login a,
+.luggage-red #pHeader .top-info .nav-wrapper .nav-item span,
+.luggage-red #pHeader .top-info .nav-wrapper .nav-item .btn-login,
+.luggage-red #pHeader .top-info .nav-wrapper .nav-item span a {
+  color: #FFF;
+}
+.luggage-red #pHeader .nav-font {
+  color: #000000;
+  font-weight: normal;
+}
+.luggage-red #pHeader .search-box {
+  border-bottom: none;
+}
+.luggage-red #pHeader .search-box .input-wrapper .btn-search {
+  background: #FFF;
+  border: 1px solid #d9d9d9;
+  border-left: none;
+  color: #d9d9d9;
+}
+.luggage-red #pHeader .search-box .input-wrapper .ant-input {
+  background: #FFF;
+  color: #000000;
+}
+.luggage-red #pHeader .search-box .ant-input:hover {
+  border-color: #d9d9d9;
+}
+.luggage-red #pHeader .search-box .ant-input:focus {
+  border-color: #d9d9d9;
+  box-shadow: none;
+}
+.luggage-red #pFooter .footer-wrapper {
+  color: #666666;
+  background: rgba(240, 65, 52, 0.1);
+}
+.luggage-red #pFooter .footer-wrapper .footer-content {
+  border-top: 1px solid #ccc;
+}
+.luggage-red #pFooter .footer-wrapper .footer-content .font {
+  color: #F04134;
+}
+.luggage-red #pFooter .footer-wrapper .footer-content .title {
+  color: #666;
+}
+.luggage-red #pFooter .footer-wrapper .footer-content .title .title-icon {
+  display: none;
+}
+.luggage-red #pFooter .footer-wrapper .rights {
+  background: #F04134;
+  color: #FFF;
+  border-top: 1px solid #ccc;
+}
+.luggage-red .pc-home .ad-img-box .ad-img-cover .ad-cover-inner {
+  background: rgba(225, 48, 59, 0.2);
+}
+.luggage-red .productPage .productList .part .right-info .photo .img-pick {
+  border: 1px solid transparent;
+}
+.luggage-red .productPage .productList .part .right-info .photo .img-active {
+  border: 1px solid #F04134;
+}
+.luggage-red .productPage .productList .part .right-info .time {
+  background-color: transparent;
+  border: 1px solid #F04134;
+  color: #F04134;
+}
+.luggage-red .productPage .productList .part .right-info .sale {
+  display: none;
+}
+.luggage-red .productPage .productList .part .right-info .tip-box-skint {
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  padding: 0 20px;
+  background-color: #F04134;
+  color: #FFF;
+  height: 28px;
+  line-height: 28px;
+}
+.luggage-red .productPage .productList .part .right-info .operate .icon-heart:hover {
+  color: #F04134;
+}
+.luggage-red .productPage .productList .part .right-info .operate .anticon-heart {
+  color: #F04134;
+}
+.luggage-red .productPage .productList .part .right-info .operate .icon-eyesss {
+  color: #666666;
+}
+.luggage-red .productPage .productList .part .right-info .operate .icon-eyesss:hover {
+  color: #F04134;
+}
+.luggage-red .productPage .productList .part .right-info .operate .icon-p:hover {
+  color: #F04134;
+}
+.luggage-red .productPage .sort .sortType-choose {
+  color: #FFF;
+  background: #F04134;
+  border: 1px solid #F04134;
+}
+.luggage-red .pd-contain .magnifier-wrap .img-list li.active::after {
+  border-color: #F04134;
+}
+.luggage-red .pd-contain .spec-list .list-con li.active::before {
+  border-color: #F04134;
+}
+.luggage-red .pd-contain .do-price .do-price-discount {
+  background: #F04134;
+  color: #FFF;
+}
+.luggage-red #pCompany .wrabox .bor_bt {
+  background: #F04134;
+}
+.luggage-red #pContact .conbox .bor_bt {
+  background: #F04134;
+}

@@ -1,0 +1,81 @@
+#mFooter {
+    .footer-wrapper {
+        width: 100%;
+    }
+
+    .footer-content {
+        background: @primary-color;
+        .footer-item {
+            .header{
+                font-size: 0.42667rem;
+                font-family: PingFangSC-Regular;
+                color: @main-color;
+                padding: 0.26667rem;
+                cursor: pointer;
+                span{
+                    float: right
+                }
+                img{
+                    margin-right: 0.26667rem;
+                    width: 0.62667rem;
+                }
+            }
+            .items{
+                height: 100%;
+                overflow: hidden;
+                transition: 0.2s ease-out;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                .item-pointer {
+                    cursor: pointer;
+                }
+                .item{
+                    background: rgba(255,255,255,0.10);
+                    padding: 0.26667rem;
+                    .font {
+                        color: @main-color;
+                        margin-right: 0.4rem;
+                        font-size: 0.53333rem;
+                        float: left;
+                    }
+                    .iconfont {
+                        line-height: 0.4rem;
+                    }
+                    p {
+                        height: 100% !important;
+                        color: @white-color;
+                        font-size: 0.32rem;
+                        white-space: initial;
+                        display: -webkit-box;
+                    }
+                }
+            }
+            .header-extra {
+                cursor: default;
+            }
+        }
+        .footer-bottom{
+            background: @black-color;
+            width: 100%;
+            text-align: center;
+            padding: 0.3rem 0;
+            p{
+                color: @white-color;
+                font-size: .25rem;
+                line-height: .8rem;
+            }
+            p.footer-txt{
+                text-decoration: underline;
+                cursor: pointer;
+                display: inline-block;
+                font-size: .3rem;
+            }
+            img {
+                width: 40%;
+                display: block;
+                margin: .1rem auto;
+            }
+
+        }
+    }
+}

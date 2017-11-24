@@ -1,0 +1,123 @@
+//@import "~antd-mobile/dist/antd-mobile.less";
+
+//皮肤等通用less
+//@import "~antd-mobile/lib/style/index.less";
+//@import "~antd/lib/style/index.less";
+@import "../../../../node_modules/antd-mobile/lib/style/index.less";
+@import "../../../../node_modules/antd/lib/style/index.less";
+
+//组件less文件
+@import '../mobile-components.less';
+//组件less文件
+@import '../pc-components.less';
+
+//覆盖原皮肤
+@import '../mobile-init/stepper.less';
+
+@import "./color.less";
+
+
+@import './home.less';
+@import './company.less';
+@import './contact.less';
+@import './countDown.less';
+@import './header.less';
+@import './footer.less';
+@import './moreInformation.less';
+@import './productitem.less';
+@import './productPage.less';
+@import './tabs.less';
+@import './top.less';
+
+body, html{
+  height: auto;
+}
+body {
+    font-family: 'Noto Serif', serif,"AppleMyungjo";
+}
+
+
+
+
+.am-button {
+	color: @main-color;
+    font-size: 0.32rem;
+    height: 0.90666666rem;
+    line-height: 0.90666666rem;
+    border-radius: 0.053333333rem;
+}
+.am-icon-md{
+	width: 0.32rem;
+	height: 0.5rem;
+}
+
+.am-toast {
+  position: fixed;
+  width: 100%;
+  z-index: 1999;
+  font-size: 0.373333rem;
+  text-align: center;
+}
+.am-toast.am-toast-mask {
+	.am-toast-notice{
+		max-width: 100%;
+	}
+}
+
+.am-icon-xxs{
+  width: 0.4rem;
+  height: 0.4rem;
+}
+
+.am-stepper-handler-wrap{
+    font-size: 0.64rem;
+}
+
+
+.ant-modal {
+    height: 80%;
+    width: 80%!important;
+    margin: 0 auto;
+}
+.ant-modal-content {
+    height: 100%;
+    overflow-y: auto;
+    p{
+        line-height: 26px;
+        text-indent: 10px;
+        font-size: 12px;
+    }
+    p.title {
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
+
+.modal-footer {
+    margin: 10% auto 0 auto;
+    .ant-modal-content {
+        .ant-modal-close {
+            .ant-modal-close-x {
+                width: 1rem;
+                height: 1rem;
+                line-height: 1rem;
+                font-size: .4rem;
+            }
+        }
+        .ant-modal-header{
+            padding: .4rem .45rem;
+            .ant-modal-title {
+                font-size: .4rem;
+            }
+        }
+        p{
+            line-height: .4rem;
+            text-indent: .3rem;
+            font-size: .3rem;
+        }
+        p.title {
+            font-weight: 700;
+            font-size: .3rem;
+        }
+    }
+}

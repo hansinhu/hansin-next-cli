@@ -1,0 +1,418 @@
+.productPage {
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	.left-part {
+		width: 280px;
+		position: absolute;
+		.catalog {
+			.title-header {
+				font-family: AppleMyungjo;
+				font-size: 24px;
+				color: #000000;
+				letter-spacing: 0;
+				margin: 40px 0 0;
+			}
+			.small-title {
+				font-family: AppleMyungjo;
+				font-size: 18px;
+				color: #2B2D42;
+				letter-spacing: 0;
+				margin: 43px 0 19px 0;
+				display: block;
+			}
+			.line {
+				background: #2B2D42;
+				height: 1px;
+				width: 280px;
+				display: block;
+				margin: 0 0 30px 0;
+			}
+			.submit {
+				width: 88px;
+				height: 30px;
+				background: #2B2D42;
+				border-radius: 4px;
+				font-family: AppleMyungjo;
+				font-size: 14px;
+				color: #FFD613;
+				letter-spacing: 0;
+				text-align: center;
+				line-height: 30px;
+				display: inline-block;
+				cursor: pointer;
+				margin: 20px 0 0 0px;
+			}
+			.ant-checkbox-group {
+				.ant-checkbox-group-item {
+			    display: block;
+			    margin: 0 0 16px;
+			    // .ant-checkbox-inner {
+			    // 	width: 24px;
+			    // 	height: 24px;			    	
+			    // 	border-radius: 2px;
+			    // 	&:after {
+			    // 		transform: rotate(45deg) scale(2);
+			    // 		position: absolute;
+			    // 		left: 8px;
+			    // 		top: 5px;
+			    // 	}
+			    // }
+			    span {
+			    	font-family: PingFangSC-Regular;
+			    	font-size: 14px;
+			    	color: #2B2D42;
+			    	letter-spacing: 0;
+			    	line-height: 18px;
+			    // 	&::selection {
+							// background: #FFD613!important;
+				   //  }
+			    }
+				}				
+			}
+			.sortNum {
+				float: right;
+				span {
+					width: 24px;
+					height: 24px;
+					line-height: 24px;
+					margin: 0 0 16px 0;
+					display: block;
+					font-family: PingFangSC-Regular;
+					font-size: 14px;
+					color: #8D99AE;
+					letter-spacing: 0;
+					text-align: center;
+					background: #F2F2F2;
+					border-radius: 2px;
+				}
+			}
+		}
+	}
+	.left-part-fb {
+		z-index: 9;
+		background: #fbfbfb;
+		border: 1px solid #ccc;
+		padding: 0px 50px 50px;
+		box-sizing: content-box;
+		animation: all 1s ease-out;
+		@keyframes all /* Opera */
+		{
+			from {
+				opacity: 0;
+			}
+			to {
+				opacity: 1;
+			}
+		}
+	}
+	.right-part {
+		float: left;
+		margin-top: 106px;
+		width: 100%;
+		min-height: 900px;
+	}
+	.right-part-padding {
+		padding-left: 320px;
+	}
+	.sort {
+		margin: 20px 0;
+		overflow: hidden;
+		line-height: 32px;
+		.search-header {
+			margin: 40px 0;
+			span {
+				display: inline-block;
+			}
+			.title {
+				font-family: AppleMyungjo;
+				font-size: 24px;
+				color: #000000;
+				letter-spacing: 0;
+			}
+			.type {
+				font-family: AppleMyungjo;
+				font-size: 24px;
+				color: #003F00;
+				letter-spacing: 0;
+				line-height: 29px;
+				margin-left: 20px;
+			}
+			.total {
+				font-family: AppleMyungjo;
+				font-size: 18px;
+				color: #8D99AE;
+				letter-spacing: 0;
+				float: right;
+			}
+		}
+		.fb-botton {
+			cursor: pointer;
+			width: 40px;
+			height: 40px;
+			border: 1px solid #8D99AE;
+			border-radius: 4px;
+			line-height: 40px;
+			text-align: center;
+			font-size: 25px;
+		}
+		.sortPageNumber {
+			float: right;
+			font-family: HelveticaNeue;
+			font-size: 16px;
+			color: #8D99AE;
+			letter-spacing: 0;
+		}
+		.title {
+			font-family: HelveticaNeue;
+			font-size: 20px;
+			color: #2B2D42;
+			letter-spacing: 0;
+			margin-right: 16px;
+		}	
+		.sortType {
+			font-size: 25px;
+			float: right;
+			margin: 0 0 0 20px;
+			display: inline-block;
+			i {
+				cursor: pointer;
+				width: 40px;
+				height: 40px;
+				border: 1px solid #8D99AE;
+				border-radius: 4px;
+				line-height: 40px;
+				text-align: center;
+			}
+		}
+		.ant-select-selection {
+
+		}
+	}
+	.productList {
+		width: 100%;
+		overflow: hidden;
+		margin-bottom: 60px;
+		.part {
+			overflow: hidden;
+			margin-bottom: 32px;
+			min-height: 400px;
+			.left-img {
+				width: 400px;
+				height: 400px;
+				border: 1px solid rgb(229,229,229);
+				box-sizing: border-box;
+				position: absolute;
+				.img-left {
+					width: 100%;
+					height: 100%;
+					cursor: pointer;
+					object-fit: cover;
+					-webkit-animation-name: fadeInOut;
+					-webkit-animation-timing-function: ease-in-out;
+					-webkit-animation-duration: 0.5s;
+				}
+				@-webkit-keyframes fadeInOut {
+					0% {
+						opacity: 0;
+					}
+					50% {
+						opacity: 0.3;
+					}
+					100% {
+						opacity: 1;
+					}
+				}
+			}
+			.right-info {
+				width: 100%;
+				padding-left: 436px;
+				.sale {
+					width: 128px;
+					height: 40px;
+					background: #2B2D42;
+					border-radius: 4px;
+					line-height: 40px;
+					font-family: HelveticaNeue-Medium;
+					font-size: 18px;
+					color: #FFD613;
+					letter-spacing: 0;
+					margin-bottom: 20px;
+					.sale-span {
+						font-family: HelveticaNeue-Medium;
+						font-size: 18px;
+						color: #2B2D42;
+						letter-spacing: 0;
+						background: #FFFFFF;
+						border-radius: 4px 0 0 4px;
+						width: 62px;
+						height: 36px;
+						display: inline-block;
+						margin: 1.5px 2px;
+						text-align: center;
+					}
+					.sale-spans {
+						margin-left: 5px;
+					}
+				}
+				.title {
+					font-family: AppleMyungjo;
+					font-size: 20px;
+					color: #2B2D42;
+					letter-spacing: 0;
+					line-height: 20px;					
+				}
+				.comment {
+					margin-top: 20px;
+					color: #FFD613;
+					font-size: 18px;
+					margin-bottom: 14px;
+				}
+				.price {
+					margin-bottom: 13px;
+					.price-symbol {
+						font-family: HelveticaNeue-Medium;
+						font-size: 24px;
+						color: #2B2D42;
+						letter-spacing: 0;
+					}
+					.price-primary {
+						font-family: HelveticaNeue-Medium;
+						font-size: 30px;
+						color: #000000;
+						letter-spacing: 0;
+						line-height: 29px;
+					}
+					.price-sale {
+						font-family: HelveticaNeue;
+						font-size: 18px;
+						color: #8D99AE;
+						letter-spacing: 0;
+						margin-left: 18px;
+						text-decoration: line-through;
+					}
+				}
+				.photo {
+					margin-bottom: 16px;
+					img {
+						width: 50px;
+						height: 50px;
+						margin-right: 16px;
+						cursor: pointer;
+						object-fit: cover;
+					}
+				}
+				.time {
+					margin-bottom: 21px;
+					background: rgba(43,45,66,0.80);
+					border-radius: 4px;
+					width: 186px;
+					height: 50px;
+					font-family: AppleMyungjo;
+					font-size: 18px;
+					color: #FFD613;
+					letter-spacing: 0;
+					overflow: hidden;
+					display: flex;
+					justify-content: space-around;
+					box-sizing: border-box;
+					padding: 2px 10px;
+					div {
+						text-align: center;
+						display: flex;
+						flex-wrap: wrap;
+						justify-content: center;
+						flex-direction: column;
+						span:nth-child(2) {
+							font-size: 12px;
+						}
+						span {
+							line-height: 1.2em;
+						}
+					}
+				}
+				.operate {				
+					
+					.botton {
+						width: 200px;
+						height: 40px;
+						background: #2B2D42;
+						border-radius: 4px;
+						font-family: AppleMyungjo;
+						font-size: 14px;
+						color: #FFD613;
+						letter-spacing: 0;
+						text-align: center;
+						line-height: 40px;
+						display: inline-block;
+						cursor: pointer;
+						i {
+							font-size: 16px;
+							margin-right: 8px;
+							vertical-align: middle;
+						}
+					}
+					.icon-eyesss {
+						font-size: 23px;
+						margin-left: 40px;
+						vertical-align: middle;
+						cursor: pointer;
+					}
+					.icon-heart {
+						margin-left: 16px;
+						vertical-align: middle;
+						cursor: pointer;
+						font-size: 18px;
+					}
+				}
+
+			}
+		}
+		.listPartTwo {
+			height: 450px;
+			width: 326px;
+			margin: 0 13px 26px;
+		}
+	}
+	.page {
+		margin-bottom: 80px;
+		float: right;
+		// .ant-pagination-item, .ant-pagination-prev, .ant-pagination-next {
+		// 	width: 40px;
+		// 	height: 40px;
+		// 	border-radius: 4px;
+		// 	line-height: 40px;
+		// 	a:after {
+		// 		line-height: 40px;
+		// 	}
+		// }
+	}
+	.list-no-data {
+		text-align: center;
+		img {
+			margin: 20px auto 0;
+			display: block;
+		}
+		span {
+			font-family: AppleMyungjo;
+			font-size: 24px;
+			color: #2B2D42;
+			margin-left: 30px;
+		}
+	}
+}
+.productPage-fb {
+	width: 95.33%;
+}
+.productPage-pc {
+	min-width: 1200px;
+	width: 83.33%;
+}
+.fb-mask {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 8;
+}

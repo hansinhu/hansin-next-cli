@@ -1,0 +1,24 @@
+{
+    "presets": [
+
+        "next/babel",
+        "stage-0",
+        [ "env", {
+          "targets": {
+            "safari": 10,
+            "ie": 10
+          },
+          "modules": false,
+          "useBuiltIns": true,
+          "debug": false
+        }]
+    ],
+    "plugins": [
+        [
+            "import",
+            {
+                "libraryName": "antd-mobile"
+            }
+        ]
+    ]
+}

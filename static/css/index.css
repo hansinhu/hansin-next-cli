@@ -1,0 +1,43 @@
+.txt {
+    color: #ff7223
+}
+html{
+	overflow-x: hidden;
+}
+.main-content{
+    min-width: 1200px;
+}
+@media screen and (max-width:1200px){
+    html{
+        overflow-x: scroll;
+    }
+}
+
+.tip-box{
+	position: absolute;
+}
+.toy-icon{
+    display: none;
+    width: 60px;
+    height: 10px;
+    background-color: #000;
+    margin: 0 8px;
+    border-radius: 50px;
+}
+
+
+/*@font-face {
+    font-family: 'AppleMyungjo';
+    src: url('./fonts/AppleGaramond.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}*/
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('./fonts/NotoSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Noto Serif', serif,"AppleMyungjo";
+}

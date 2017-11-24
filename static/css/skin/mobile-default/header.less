@@ -1,0 +1,264 @@
+/**** top info****/
+#mHeader {
+    .top-info {
+        transition: .3s ease-out;
+        width:0;
+        background-color: @primary-color;
+        height: 1.33333rem;
+        line-height: 1.33333rem;
+        color: @main-color;
+        font-size: 0.53333rem;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        z-index: 9999;
+        .nav-left {
+            display: inline-block;
+            float: left;
+            cursor: pointer;
+            padding-left: 0.26667rem;
+        }
+        .nav-right {
+            display: inline-block;
+            float: right;
+            height: 1.33333rem;
+            padding-right: 0.26667rem;
+            .nav-item:first-child {
+                margin-left: 0;
+            }
+            .nav-item {
+                margin-left: 0.4rem;
+                cursor: pointer;
+                display: inline-block;
+                .nav-shop {
+                    color: @main-color
+                }
+            }
+            .nav-item-name {
+                font-size: 0.4rem;
+                margin-left: 0.26667rem;
+            }
+            a {
+                color: @main-color;
+            }
+            .bedge-mobile {
+                .ant-badge-count {
+                    -webkit-transform: scale(1.8) translate(-15px, 0px);
+                    transform: scale(1.8) translate(-15px, 0px);
+                }
+            }
+            .bedge-fb {
+                .ant-badge-count {
+                    -webkit-transform: scale(0.8) translate(-10px, 0px);
+                    transform: scale(0.8) translate(-10px, 0px);
+                }
+            }
+        }
+    }
+    .border-content {
+        width: 100%;
+        height: 1.33333rem;
+    }
+
+    .bedge-count {
+        vertical-align: inherit;
+        .ant-badge-count {
+            color: @white-color;
+            background: @error-color;
+        }
+    }
+
+
+
+
+    /***** search *****/
+    .search-box{
+        transition: .3s ease-out;
+        width: 0;
+        background: @white-color;
+        box-shadow: 0 0.02667rem 0.05333rem 0 rgba(0,0,0,0.3);
+        height: 1.33333rem;
+        color: @main-color;
+        position: fixed;
+        top: -0.01333rem;
+        right: 0;
+        left: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        z-index: 9999;
+        .input-wrapper {
+            width: 80%;
+            float: left;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translate(0.26667rem,-50%);
+            height: 1rem;
+            .input {
+                width: 98%;
+                height: 100%;
+                float: left;
+                border:none;
+                outline: none;
+                font-size: 0.32rem;
+            }
+        }
+        .close {
+            float: right;
+            color: @primary-color;
+            cursor: pointer;
+            font-size: 0.53333rem;
+            margin-top: 0.26667rem;
+            padding-right: .26667rem;
+            .search-icon {
+                cursor: pointer;
+                font-size: 0.53333rem;
+                margin-right: 0.4rem;
+            }
+        }
+    }
+
+
+    /** logo **/
+    .logo-wrapper {
+        padding: 0.5rem 0;
+        text-align: center;
+        .logo{
+            height: 1.33333rem;
+        }
+    }
+
+    /*** draw menu ***/
+    .draw_menu_cover {
+        position: fixed;
+        background: rgba(0,0,0,0.4);
+        bottom: 0;
+        top: 1.33333rem;
+        right: 0;
+        left: 0;
+        z-index: 100;
+    }
+
+    .draw_menu {
+        background: @white-color;
+        width: 0;
+        height: 100%;
+        z-index: 1000;
+        position: fixed;
+        overflow: scroll;
+        transition: 0.3s ease-out;
+        .menu-head {
+            cursor: pointer;
+            display: flex;
+            width: 100%;
+            height: 2rem;
+            line-height: 2rem;
+            font-size: 0.58667rem;
+            padding: 0 0.26667rem;
+            border-bottom: 0.01333rem solid @black0000-color;
+            margin-bottom: 0.4rem;
+            .anticon-user {
+                margin-top: 0.66667rem;
+            }
+            .company-name {
+                display: inline-block;
+                font-size: 0.42667rem;
+                margin-left: 0.26667rem;
+                flex: 1;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+        .menu-footer {
+            cursor: pointer;
+            position: fixed;
+            bottom: 0;
+            height: 1.33333rem;
+            width: 0;
+            line-height: 1.33333rem;
+            text-align: center;
+            font-size: 1.4em;
+            transition: 0.3s ease-out;
+            overflow: hidden;
+            background: @primary-color;
+            color: @main-color;
+            .footer-item {
+                width: 50%;
+                display: block;
+                float: left;
+                height: 1.33333rem;
+            }
+            .footer-item-extra {
+                background: #f2f2f2;
+            }
+            .footer-item-first {
+                color: @main-color;
+            }
+        }
+
+        .menu-items {
+            .item-extra {
+                padding: 0.26667rem 0;
+                border-bottom: 0.01333rem solid @black0000-color;
+            }
+            .item:last-child {
+                padding-bottom: 3.5rem;
+            }
+            .item {
+                color: @primary-color;
+                font-size: 0.42667rem;
+                padding: 0.26667rem;
+                cursor: pointer;
+                .item-wrap {
+                    width: 100%;
+                    display: flex;
+                    .item-name {
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        flex: 1;
+                    }
+                    .menu-icon {
+                        float: right;
+                        color: @sort-num-color;
+                    }
+                }
+                .item-wrap-active{
+                    color: @main-color;
+                }
+
+                .item-sub1 {
+                    height: 0;
+                    overflow: hidden;
+                    transition: 0.3s ease-out;
+                    .item-active{
+                        color: @main-color;
+                        .item {
+                            width: 90% !important;
+                        }
+                    }
+                    .item {
+                        width: 100%;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        padding:0;
+                        float: left;
+                    }
+                }
+                .menu-check {
+                    color: @main-color;
+                    float: right;
+                    margin-top: .1rem;
+                    width: 10%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1548 @@
+//箱包模板
+@import "./color.less";
+@purple-color:#602D8E;
+@purple-hover:#581d8d;
+@orange-color:#ED6334;
+@orange-hover:#C44431;
+@pink-color:#D37373;
+@pink-hover:#d35a5a;
+@pink-light:#F04134;
+
+.baby-module{
+	.ant-rate-star{
+		color: #ccc;
+	}
+	.pc-home{
+		.ad-img-box{
+			max-height: 500px;
+			.ad-img-h{
+				height: 500px;
+			}
+			.ad-img-cover{
+				display: none;
+			}
+		} 
+	}
+	.pro-box{
+		.pro-box-inner{
+			.flex-width{
+				.pro-img-box{
+					.tip-box{
+						width: 110px;
+						height: 75px;
+						top: 5px;
+						right: 5px;
+						background-color: transparent;
+						background-size: cover;
+						.bay-tips{
+							height: 75px;
+							.toy-tip-count{
+								height: 75px;
+								line-height: 75px;
+								text-indent: 18px;
+								font-family: HelveticaNeue-Medium;
+								font-size: 20px;
+								color: #FFFFFF;
+							}
+							.toy-tip-font{
+								float: right;
+								position: absolute;
+							    top: 12px;
+							    right: 10px;
+							    font-family: HelveticaNeue-Medium;
+								font-size: 12px;
+								color: #FFFFFF;
+							}
+						}
+					}
+				} 
+			} 
+		} 
+	}
+	.showcase{
+		.pro-box:hover{
+			.pro-box-inner{
+				border: 1px solid transparent;
+    			box-shadow: 2px 2px 10px transparent;
+			}
+		}
+	}
+	#pCompany{
+		
+		.wrabox{
+		}
+	}
+	#pContact{
+		.conbox{
+			.h1 {
+				margin-bottom: 40px;
+			}
+		}
+	}
+}
+
+
+.baby-purple{
+	//background-color:  #EBE9EE;
+	.ant-pagination-item-active{
+		background-color: @purple-color;
+		border-color: @purple-color;
+	}
+	.ant-btn-primary.ant-btn{
+	    color: @white-color;
+	    background-color: @purple-color;
+		border-color: @purple-color;
+		border-radius: 2px;
+	    &:hover{
+	    	color: @white-color;
+	        background-color: @purple-hover;
+			border-color: @purple-hover;
+	    }
+	    &:focus{
+	    	color: @white-color;
+	        background-color: @purple-hover;
+			border-color: @purple-hover;
+	    }
+	    &:active{
+	    	color: @white-color;
+	        background-color: @purple-hover;
+			border-color: @purple-hover;
+	    }
+	    &.active{
+	    	color: @white-color;
+	        background-color: @purple-hover;
+			border-color: @purple-hover;
+	    }
+	}
+
+	.ant-checkbox-group{
+	    .ant-checkbox-group-item{
+	        .ant-checkbox-checked{
+	            .ant-checkbox-inner{
+	                background-color:@purple-color;
+	            }
+	        }
+	    }
+	}
+	.ant-checkbox-wrapper{
+	    &:hover{
+	        .ant-checkbox-inner{
+	            border: 1px solid @purple-color;
+	        }
+	    }
+	}
+	.ant-checkbox-input:focus+.ant-checkbox-inner{
+	    border-color:@purple-color;
+	}
+
+	/*Input*/
+	.ant-input{
+	    &:hover{
+	        border-color: @purple-color;
+	    }
+	    &:focus{
+	        border-color: @purple-color;
+	        box-shadow: 0 0 0 0 transparent;
+	    }
+	}
+	.ant-input-affix-wrapper{
+	    &:hover{
+	        .ant-input:not(.ant-input-disabled){
+	            border-color: @purple-color;
+	        }
+	    }
+	}
+	.ant-select-open .ant-select-selection{
+	    border-color: @purple-color;
+	    box-shadow: 0 0 0 0 transparent;
+	}
+	.ant-select-selection{
+	    &:hover{
+	        border-color: @purple-color;
+	    }
+	}
+	
+
+	.pc-carousel{
+		.ant-carousel{
+			.slick-slider{
+				.slick-dots{
+					bottom: 24px;
+					li{
+						button{
+							display: inline-block;
+							background: @purple-color;
+							margin-left: 8px;
+						}
+					}
+					li.slick-active{
+						button{
+							display: inline-block;
+							background: @purple-color;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.ant-rate-star-full .ant-rate-star-second, .ant-rate-star-half .ant-rate-star-first{
+	    color:@purple-color;
+	}
+
+	.time-box{
+		font-family: Arial-BoldMT;
+		height: 56px;
+		border-radius: 0;
+		text-align: center;
+		bottom: 10px;
+		.time-inner{
+			display: inline-block;
+			width: 180px;
+			background-color: rgba(96,45,142, 0.8);
+			padding: 0 5px;
+			color: @white-color;
+			border-radius: 4px;
+			.time-count{
+				font-size: 18px;
+				line-height: 26px;
+			}
+		}
+	}
+
+	.pro-oprate{
+	  .icons{
+	    margin-right: 5px;
+	    cursor: pointer;
+	    color: @black-color;
+	    a:hover{
+	    	color: @purple-color;
+	    }
+	    .anticon.anticon-heart{
+	      color: @purple-color;
+	    }
+	  }
+	  .icons:hover{
+	    color: @purple-color;
+	    .anticon-heart-o:before{
+	      content: "\e6a3";
+	    }
+	    
+	  }
+	} 
+
+	.ant-btn{
+		border-radius: 2px;
+	    &:hover{
+	    	color: @orange-hover;
+			border-color: @orange-hover;
+	    }
+	    &:focus{
+	    	color: @orange-hover;
+			border-color: @orange-hover;
+	    }
+	    &:active{
+	    	color: @orange-hover;
+			border-color: @orange-hover;
+	    }
+	    &.active{
+	    	color: @orange-hover;
+			border-color: @orange-hover;
+	    }
+	}
+	
+	.ant-tabs-nav{
+		.ant-tabs-tab-active{
+			color: @purple-color;
+		}
+		.ant-tabs-ink-bar{
+			background-color: @purple-color;
+		}
+	}
+
+	.pro-box{
+		.pro-box-inner{
+			.flex-width{
+				.pro-img-box{
+					.tip-box{
+						background-image: url('../../../../static/img/purple-tips.png');
+					}
+					.time-box-jewelry{
+						.time-inner{
+							color: #76B7BC;
+						}
+					}
+				}
+			}
+			.tip-box-jewelry{
+			    background-color: @purple-color;
+			}
+
+		}
+		.modal-cover{
+			.pro-modal{
+				.modal-pro-title{
+					.anticon {
+						color: @purple-color;
+					}
+				}
+			}
+		}
+	}
+	
+	.oprate-con{
+		.do-price{
+			.do-price-discount{
+				background: @orange-color;
+				color: @white-color;
+			}
+		}
+	}
+
+	#pHeader{
+		.ant-badge-count {
+			color: #fff;
+			background: @purple-color;
+		}
+		.ant-menu-horizontal .ant-menu-vertical .ant-menu-item a,
+		.ant-menu-vertical .ant-menu-submenu-title{
+			color: @white-color;
+		}
+		.ant-menu-horizontal .ant-menu-vertical .ant-menu-item:hover a ,
+		.ant-menu-horizontal .ant-menu-submenu-vertical.ant-menu-submenu:hover .ant-menu-submenu-title{
+			color: @black-color !important;
+		}
+
+
+		.top-info6 .nav-info .nav-item:hover {
+			background: @purple-color;
+			color: @white-color;
+		}
+        .ant-menu-submenu>.ant-menu {
+            background-color: @purple-color;
+        }
+		.nav-wrapper-baby {
+			.ant-menu-horizontal .ant-menu-item-selected,
+			.ant-menu-horizontal>.ant-menu-item:hover,
+			.ant-menu-horizontal .ant-menu-submenu-selected{
+				border-bottom: 4px solid @purple-color !important;
+			}
+			.ant-menu-horizontal .ant-menu-item-selected .nav-font,
+			.ant-menu-horizontal>.ant-menu-item:hover .nav-font,
+			.ant-menu-horizontal .ant-menu-submenu-selected .ant-menu-submenu-title .nav-font{
+				color: @purple-color !important;
+			}
+			.ant-menu-horizontal .ant-menu-submenu-vertical.ant-menu-submenu-selected ,
+			.ant-menu-horizontal .ant-menu-submenu .ant-menu-vertical .ant-menu-item-selected{
+				border-bottom: 4px solid transparent !important;
+			}
+		}
+
+        .nav-wrapper-6 {
+            .ant-menu-horizontal .ant-menu-vertical .ant-menu-item:hover ,
+			.ant-menu-horizontal .ant-menu-vertical .menu-subMenu-item:hover {
+                background: @purple-hover;
+            }
+			.nav-menu .menu-wrapper .ant-menu-horizontal .menu-subItem.ant-menu-item-selected {
+                background: @purple-color;
+            }
+            .ant-menu-horizontal .ant-menu-vertical .menu-subMenu-item .ant-menu-item:hover a,
+            .ant-menu-horizontal .ant-menu-vertical .menu-subMenu-item .ant-menu-item-selected a {
+                color:  @purple-color !important;;
+            }
+        }
+
+		
+		.footer-wrapper{
+			background: @white-color;
+		}
+
+		.search-box ,.nav-wrapper,.ant-menu-horizontal{
+			background: #E6E3EA;
+		}
+
+		.top-info{
+			background-color:@purple-color;
+			color: @white-color;
+			.nav-wrapper{
+				.icon-extra{
+					color: @white-color;
+				}
+				.icon{
+					color: @white-color;
+				}
+				.nav-item{
+					.btn-login a,span,.btn-login,span a{
+						color: @white-color;
+					}
+				}
+			} 
+		}
+		.search-box{
+			border-bottom: none;
+		}
+
+		.search-box .input-wrapper .btn-search{
+			background: @purple-color;
+			color: #fff;
+		}
+		.search-box .input-wrapper .ant-input{
+			background: @white-color;
+			color: @black-color;
+		}
+		.search-box .ant-input:hover{
+			border-color: #d9d9d9;
+		}
+		.search-box .ant-input:focus{
+			border-color: #d9d9d9;
+			box-shadow: none;
+		}
+	}
+
+	#pFooter .footer-wrapper{
+		color:@white-color;
+		background:  @purple-color;
+		.footer-content{
+            .title-line {
+                background: @purple-color;
+            }
+            .font {
+                color:@white-color;
+            }
+			.title{
+                font-family: Arial;
+                font-size: 20px;
+                color:@white-color;
+				.title-icon{
+					display: none;
+				}
+			}
+		} 
+		.rights{
+			color:@white-color;
+			background:  @purple-color;
+			border-top: 1px solid @white-color
+		}
+	}
+	.pc-home{
+		.ad-img-box{
+			.ad-img-cover{
+				.ad-cover-inner{
+					background: rgba(225,48,59,.2);
+				}
+			}
+			.ad-img-cover-jewelry .ad-cover-inner .inner-font{
+				color: @purple-color;
+			}
+		}
+		.case-name{
+			margin-bottom: 20px;
+    		text-align: center;
+    		color: @purple-color;
+		}
+		.showcase{
+			background-color:  #EBE9EE;
+		}
+	} 
+	//列表页
+	.productPage{
+		.productList{
+			.listPartTwo{
+				height: auto;
+				margin-bottom: 0;
+			}
+			.part{
+				.right-info{
+					.photo{
+						.img-pick{
+							border: 1px solid transparent;
+						}
+						.img-active{
+							border: 1px solid @purple-color;
+						}
+					}
+					.time{
+						background-color:@purple-color;
+						border:1px solid @purple-color;
+						color: @white-color;
+						div{
+							padding: 0 5px;
+							border-radius: 2px;
+							.time-jewelry-day{
+								display: inline-block;
+							}
+							.time-default-day{
+								display: none;
+							}
+						}
+					}
+					.sale{
+						background:@purple-color;
+						.sale-span{
+							color: @purple-color;
+						}
+						.sale-spans{
+							color: @white-color;
+						}
+					}
+					.operate{
+						.icon-heart{
+							&:hover{
+								color: @purple-color;
+							}
+						}
+						.anticon-heart{
+							color:@purple-color;
+						}
+						.icon-eyesss{
+							color:@black00-color;
+							&:hover{
+								color: @purple-color;
+							}
+						}
+						.icon-p:hover{
+							color: @purple-color;
+						}
+					}
+				} 
+			}
+
+		}
+		.sort{
+			.sortType-choose{
+				color:@white-color;
+				background:@purple-color;
+				border: 1px solid @purple-color;
+			}
+		}
+	}
+	//详情页
+	.pd-contain{
+		.magnifier-wrap .img-list li.active::after{
+			border-color: @purple-color;
+		}
+		.spec-list{
+			.list-con{
+				li.active::before{
+					border-color: @purple-color;
+				}
+			} 
+		}
+		.do-price{
+			.do-price-discount{
+			    background: @purple-color;
+			    color: @white-color;
+			}
+		}
+		.timeBox{
+			opacity: .8;
+	    	background: @purple-color;
+	    	.time{
+				.leftTextBox{
+					color: @white-color;
+				}
+				.centerTimeBox{
+					dl{
+						dt{
+							color: @purple-color;
+						}
+						dd{
+							color: @white-color;
+						}
+					}
+				}
+				.rightAllBox{
+					a{
+						color: @white-color;
+					}
+				}
+	    	}
+	    }
+	}
+	//公司信息
+	#pCompany{
+		.wrabox{
+			.bor_bt{
+				background: @purple-color;
+			}
+		}
+	}
+	#pContact{
+		.conbox{
+			.bor_bt{
+				background: @purple-color;
+			}
+		}
+	}
+}
+
+//橘色
+.baby-orange{
+	//background-color: rgba(218,170,151,0.30);
+	.ant-pagination-item-active{
+		background-color: @orange-color;
+		border-color: @orange-color;
+	}
+	.ant-btn-primary.ant-btn{
+	    color: @white-color;
+	    background-color: @orange-color;
+		border-color: @orange-color;
+		border-radius: 2px;
+	    &:hover{
+	    	color: @white-color;
+	        background-color: @orange-hover;
+			border-color: @orange-hover;
+	    }
+	    &:focus{
+	    	color: @white-color;
+	        background-color: @orange-hover;
+			border-color: @orange-hover;
+	    }
+	    &:active{
+	    	color: @white-color;
+	        background-color: @orange-hover;
+			border-color: @orange-hover;
+	    }
+	    &.active{
+	    	color: @white-color;
+	        background-color: @orange-hover;
+			border-color: @orange-hover;
+	    }
+	}
+
+	.ant-checkbox-group{
+	    .ant-checkbox-group-item{
+	        .ant-checkbox-checked{
+	            .ant-checkbox-inner{
+	                background-color:@orange-color;
+	            }
+	        }
+	    }
+	}
+	.ant-checkbox-wrapper{
+	    &:hover{
+	        .ant-checkbox-inner{
+	            border: 1px solid @orange-color;
+	        }
+	    }
+	}
+	.ant-checkbox-input:focus+.ant-checkbox-inner{
+	    border-color:@orange-color;
+	}
+
+	/*Input*/
+	.ant-input{
+	    &:hover{
+	        border-color: @orange-color;
+	    }
+	    &:focus{
+	        border-color: @orange-color;
+	        box-shadow: 0 0 0 0 transparent;
+	    }
+	}
+	.ant-input-affix-wrapper{
+	    &:hover{
+	        .ant-input:not(.ant-input-disabled){
+	            border-color: @orange-color;
+	        }
+	    }
+	}
+	.ant-select-open .ant-select-selection{
+	    border-color: @orange-color;
+	    box-shadow: 0 0 0 0 transparent;
+	}
+	.ant-select-selection{
+	    &:hover{
+	        border-color: @orange-color;
+	    }
+	}
+	
+
+	.pc-carousel{
+		.ant-carousel{
+			.slick-slider{
+				.slick-dots{
+					bottom: 24px;
+					li{
+						button{
+							display: inline-block;
+							background: @orange-color;
+							margin-left: 8px;
+						}
+					}
+					li.slick-active{
+						button{
+							display: inline-block;
+							background: @orange-color;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.ant-rate-star-full .ant-rate-star-second, .ant-rate-star-half .ant-rate-star-first{
+	    color:@orange-color;
+	}
+
+	.time-box{
+		font-family: Arial-BoldMT;
+		height: 56px;
+		border-radius: 0;
+		text-align: center;
+		bottom: 10px;
+		.time-inner{
+			display: inline-block;
+			width: 180px;
+			background-color: rgba(237,99,52, 0.8);
+			padding: 0 5px;
+			color: @white-color;
+			border-radius: 4px;
+			.time-count{
+				font-size: 18px;
+				line-height: 26px;
+			}
+		}
+	}
+
+	.pro-oprate{
+	  .icons{
+	    margin-right: 5px;
+	    cursor: pointer;
+	    color: @black-color;
+	    a:hover{
+	    	color: @orange-color;
+	    }
+	    .anticon.anticon-heart{
+	      color: @orange-color;
+	    }
+	  }
+	  .icons:hover{
+	    color: @orange-color;
+	    .anticon-heart-o:before{
+	      content: "\e6a3";
+	    }
+	    
+	  }
+	} 
+
+	.ant-btn{
+		border-radius: 2px;
+	    &:hover{
+	    	color: @orange-hover;
+			border-color: @orange-hover;
+	    }
+	    &:focus{
+	    	color: @orange-hover;
+			border-color: @orange-hover;
+	    }
+	    &:active{
+	    	color: @orange-hover;
+			border-color: @orange-hover;
+	    }
+	    &.active{
+	    	color: @orange-hover;
+			border-color: @orange-hover;
+	    }
+	}
+	
+	.ant-tabs-nav{
+		.ant-tabs-tab-active{
+			color: @orange-color;
+		}
+		.ant-tabs-ink-bar{
+			background-color: @orange-color;
+		}
+	}
+
+	.pro-box{
+		.pro-box-inner{
+			.flex-width{
+				.pro-img-box{
+					.tip-box{
+						background-image: url('../../../../static/img/orange-tips.png');
+					}
+					.time-box-jewelry{
+						.time-inner{
+							color: @orange-color;
+						}
+					}
+				}
+			}
+			.tip-box-jewelry{
+			    background-color: @orange-color;
+			}
+		}
+		.modal-cover{
+			.pro-modal{
+				.modal-pro-title{
+					.anticon {
+						color: @orange-color;
+					}
+				}
+			}
+		}
+	}
+	
+	.oprate-con{
+		.do-price{
+			.do-price-discount{
+				background: @orange-color;
+				color: @white-color;
+			}
+		}
+	}
+
+	#pHeader{
+		.ant-badge-count {
+			color: #fff;
+			background: @orange-color;
+		}
+		.top-info6 .nav-info .nav-item:hover {
+			background: @orange-color;
+			color: @white-color;
+		}
+        .ant-menu-submenu>.ant-menu {
+            background-color: @orange-color;
+        }
+		.nav-wrapper-baby {
+			.ant-menu-horizontal .ant-menu-item-selected,
+			.ant-menu-horizontal>.ant-menu-item:hover,
+			.ant-menu-horizontal .ant-menu-submenu-selected{
+				border-bottom: 4px solid @orange-color !important;
+			}
+			.ant-menu-horizontal .ant-menu-item-selected .nav-font,
+			.ant-menu-horizontal>.ant-menu-item:hover .nav-font,
+			.ant-menu-horizontal .ant-menu-submenu-selected .ant-menu-submenu-title .nav-font{
+				color: @orange-color !important;
+			}
+			.ant-menu-horizontal .ant-menu-submenu-vertical.ant-menu-submenu-selected ,
+			.ant-menu-horizontal .ant-menu-submenu .ant-menu-vertical .ant-menu-item-selected{
+				border-bottom: 4px solid transparent !important;
+			}
+		}
+        .nav-wrapper-6 {
+            .ant-menu-horizontal .ant-menu-vertical .ant-menu-item:hover ,
+			.ant-menu-horizontal .ant-menu-vertical .menu-subMenu-item:hover,
+            .ant-menu-horizontal .ant-menu-vertical .ant-menu-submenu-selected{
+                background: @orange-hover;
+            }
+			.nav-menu .menu-wrapper .ant-menu-horizontal .menu-subItem.ant-menu-item-selected {
+                background: @orange-color;
+            }
+            .ant-menu-horizontal .ant-menu-vertical .menu-subMenu-item .ant-menu-item:hover a ,
+            .ant-menu-horizontal .ant-menu-vertical .menu-subMenu-item .ant-menu-item-selected a{
+                color:  @orange-color !important;;
+            }
+        }
+
+		.footer-wrapper{
+			background: @white-color;
+		}
+
+		.search-box ,.nav-wrapper,.ant-menu-horizontal{
+			background: #F0DFD8;
+		}
+
+		.top-info{
+			background-color:@orange-color;
+			color: @white-color;
+			.nav-wrapper{
+				.icon-extra{
+					color: @white-color;
+				}
+				.icon{
+					color: @white-color;
+				}
+				.nav-item{
+					.btn-login a,span,.btn-login,span a{
+						color: @white-color;
+					}
+				}
+			} 
+		}
+		.search-box{
+			border-bottom: none;
+		}
+
+		.search-box .input-wrapper .btn-search {
+			background: @orange-color;
+			color: #fff;
+		}
+		.search-box .input-wrapper .ant-input{
+			background: @white-color;
+			color: @black-color;
+		}
+		.search-box .ant-input:hover{
+			border-color: #d9d9d9;
+		}
+		.search-box .ant-input:focus{
+			border-color: #d9d9d9;
+			box-shadow: none;
+		}
+	}
+
+	#pFooter .footer-wrapper{
+		color:@white-color;
+		background:  @orange-color;
+		.footer-content{
+            .title-line {
+                background: @orange-color;
+            }
+            .font {
+                color:@white-color;
+            }
+			.title{
+                font-family: Arial;
+                font-size: 20px;
+                color:@white-color;
+				.title-icon{
+					display: none;
+				}
+			}
+
+		} 
+		.rights{
+			color:@white-color;
+			background:  @orange-hover;
+			border-top: 1px solid @orange-hover;
+		}
+	}
+	.pc-home{
+		.ad-img-box{
+			.ad-img-cover{
+				.ad-cover-inner{
+					background: rgba(225,48,59,.2);
+				}
+			}
+			.ad-img-cover-jewelry .ad-cover-inner .inner-font{
+				color: @orange-color;
+			}
+		}
+		.case-name{
+			margin-bottom: 20px;
+    		text-align: center;
+    		color: @orange-color;
+		}
+		.showcase{
+			background-color: rgba(218,170,151,0.30);
+		}
+	} 
+	//列表页
+	.productPage{
+		.productList{
+			.listPartTwo{
+				height: auto;
+				margin-bottom: 0;
+			}
+			.part{
+				.right-info{
+					.photo{
+						.img-pick{
+							border: 1px solid transparent;
+						}
+						.img-active{
+							border: 1px solid @orange-color;
+						}
+					}
+					.time{
+						background-color:@orange-color;
+						border:1px solid @orange-color;
+						color: @white-color;
+						div{
+							padding: 0 5px;
+							border-radius: 2px;
+							.time-jewelry-day{
+								display: inline-block;
+							}
+							.time-default-day{
+								display: none;
+							}
+						}
+					}
+					.sale{
+						background: @orange-color;
+						.sale-span{
+							color: @orange-color;
+						}
+						.sale-spans{
+							color: @white-color;
+						}
+					}
+					.operate{
+						.icon-heart{
+							&:hover{
+								color: @orange-color;
+							}
+						}
+						.anticon-heart{
+							color:@orange-color;
+						}
+						.icon-eyesss{
+							color:@black00-color;
+							&:hover{
+								color: @orange-color;
+							}
+						}
+						.icon-p:hover{
+							color: @orange-color;
+						}
+					}
+				} 
+			} 
+		}
+		.sort{
+			.sortType-choose{
+				color:@white-color;
+				background:@orange-color;
+				border: 1px solid @orange-color;
+			}
+		}
+	}
+	//详情页
+	.pd-contain{
+		.magnifier-wrap .img-list li.active::after{
+			border-color: @orange-color;
+		}
+		.spec-list{
+			.list-con{
+				li.active::before{
+					border-color: @orange-color;
+				}
+			} 
+		}
+		.do-price{
+			.do-price-discount{
+			    background: @orange-color;
+			    color: @white-color;
+			}
+		}
+		.timeBox{
+			opacity: .8;
+	    	background: @orange-color;
+	    	.time{
+				.leftTextBox{
+					color: @white-color;
+				}
+				.centerTimeBox{
+					dl{
+						dt{
+							color: @orange-color;
+						}
+						dd{
+							color: @white-color;
+						}
+					}
+				}
+				.rightAllBox{
+					a{
+						color: @white-color;
+					}
+				}
+	    	}
+	    }
+	}
+	//公司信息
+	#pCompany{
+		.wrabox{
+			.bor_bt{
+				background: @orange-color;
+			}
+		}
+	}
+	#pContact{
+		.conbox{
+			.bor_bt{
+				background: @orange-color;
+			}
+		}
+	}
+}
+
+
+/*三种颜色通用样式*/
+//#红色
+.baby-pink{
+	//background-color: rgba(242,192,197,0.50);
+	.ant-pagination-item-active{
+		background-color: @pink-color;
+		border-color: @pink-color;
+	}
+	.ant-btn-primary.ant-btn{
+	    color: @pink-color;
+	    background-color: rgba(248,101,99,0.15);
+		border-color: @pink-color;
+		border-radius: 2px;
+	    &:hover{
+	    	color: @white-color;
+	        background-color: @pink-hover;
+			border-color: @pink-hover;
+	    }
+	    &:focus{
+	    	color: @white-color;
+	        background-color: @pink-hover;
+			border-color: @pink-hover;
+	    }
+	    &:active{
+	    	color: @white-color;
+	        background-color: @pink-hover;
+			border-color: @pink-hover;
+	    }
+	    &.active{
+	    	color: @white-color;
+	        background-color: @pink-hover;
+			border-color: @pink-hover;
+	    }
+	}
+
+	.ant-checkbox-group{
+	    .ant-checkbox-group-item{
+	        .ant-checkbox-checked{
+	            .ant-checkbox-inner{
+	                background-color:@pink-color;
+	            }
+	        }
+	    }
+	}
+	.ant-checkbox-wrapper{
+	    &:hover{
+	        .ant-checkbox-inner{
+	            border: 1px solid @pink-color;
+	        }
+	    }
+	}
+	.ant-checkbox-input:focus+.ant-checkbox-inner{
+	    border-color:@pink-color;
+	}
+
+	/*Input*/
+	.ant-input{
+	    &:hover{
+	        border-color: @pink-color;
+	    }
+	    &:focus{
+	        border-color: @pink-color;
+	        box-shadow: 0 0 0 0 transparent;
+	    }
+	}
+	.ant-input-affix-wrapper{
+	    &:hover{
+	        .ant-input:not(.ant-input-disabled){
+	            border-color: @pink-color;
+	        }
+	    }
+	}
+	.ant-select-open .ant-select-selection{
+	    border-color: @pink-color;
+	    box-shadow: 0 0 0 0 transparent;
+	}
+	.ant-select-selection{
+	    &:hover{
+	        border-color: @pink-color;
+	    }
+	}
+	
+
+	.pc-carousel{
+		.ant-carousel{
+			.slick-slider{
+				.slick-dots{
+					bottom: 24px;
+					li{
+						button{
+							display: inline-block;
+							background: @pink-color;
+							margin-left: 8px;
+						}
+					}
+					li.slick-active{
+						button{
+							display: inline-block;
+							background: @pink-color;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.ant-rate-star-full .ant-rate-star-second, .ant-rate-star-half .ant-rate-star-first{
+	    color:@pink-color;
+	}
+
+	.time-box{
+		font-family: Arial-BoldMT;
+		height: 56px;
+		border-radius: 0;
+		text-align: center;
+		bottom: 10px;
+		.time-inner{
+			display: inline-block;
+			width: 180px;
+			background-color: rgba(211,115,115, 0.8);
+			padding: 0 5px;
+			color: @white-color;
+			border-radius: 4px;
+			.time-count{
+				font-size: 18px;
+				line-height: 26px;
+			}
+		}
+	}
+
+	.pro-oprate{
+	  .icons{
+	    margin-right: 5px;
+	    cursor: pointer;
+	    color: @black-color;
+	    a:hover{
+	    	color: @pink-color;
+	    }
+	    .anticon.anticon-heart{
+	      color: @pink-color;
+	    }
+	  }
+	  .icons:hover{
+	    color: @pink-color;
+	    .anticon-heart-o:before{
+	      content: "\e6a3";
+	    }
+	    
+	  }
+	} 
+
+	.ant-btn{
+		border-radius: 2px;
+	    &:hover{
+	    	color: @pink-hover;
+			border-color: @pink-hover;
+	    }
+	    &:focus{
+	    	color: @pink-hover;
+			border-color: @pink-hover;
+	    }
+	    &:active{
+	    	color: @pink-hover;
+			border-color: @pink-hover;
+	    }
+	    &.active{
+	    	color: @pink-hover;
+			border-color: @pink-hover;
+	    }
+	}
+	
+	.ant-tabs-nav{
+		.ant-tabs-tab-active{
+			color: @pink-color;
+		}
+		.ant-tabs-ink-bar{
+			background-color: @pink-color;
+		}
+	}
+
+	.pro-box{
+		.pro-box-inner{
+			.flex-width{
+				.pro-img-box{
+					.tip-box{
+						background-image: url('../../../../static/img/pink-tips.png');
+					}
+					.time-box-jewelry{
+						.time-inner{
+							color: #DC9DB0;
+						}
+					}
+				}
+			}
+			.tip-box-jewelry{
+			    background-color: @pink-color;
+			}
+		}
+		.modal-cover{
+			.pro-modal{
+				.modal-pro-title{
+					.anticon {
+						color: @pink-color;
+					}
+				}
+			}
+		}
+	}
+	
+	.oprate-con{
+		.do-price{
+			.do-price-discount{
+				background: @pink-color;
+				color: @white-color;
+			}
+		}
+	}
+	#pHeader{
+		.ant-badge-count {
+			color: #fff;
+			background: @pink-color;
+		}
+		.top-info6 .nav-info .nav-item:hover {
+			background:@pink-color;
+			color: @white-color;
+		}
+        .ant-menu-submenu>.ant-menu {
+            background-color: @pink-color;
+        }
+		.nav-wrapper-baby {
+			.ant-menu-horizontal .ant-menu-item-selected,
+			.ant-menu-horizontal>.ant-menu-item:hover,
+			.ant-menu-horizontal .ant-menu-submenu-selected{
+				border-bottom: 4px solid @pink-color !important;
+			}
+			.ant-menu-horizontal .ant-menu-item-selected .nav-font,
+			.ant-menu-horizontal>.ant-menu-item:hover .nav-font,
+			.ant-menu-horizontal .ant-menu-submenu-selected .ant-menu-submenu-title .nav-font{
+				color: @pink-color !important;
+			}
+			.ant-menu-horizontal .ant-menu-submenu-vertical.ant-menu-submenu-selected ,
+			.ant-menu-horizontal .ant-menu-submenu .ant-menu-vertical .ant-menu-item-selected{
+				border-bottom: 4px solid transparent !important;
+			}
+		}
+        .nav-wrapper-6 {
+            .ant-menu-horizontal .ant-menu-vertical .ant-menu-item:hover ,
+			.ant-menu-horizontal .ant-menu-vertical .menu-subMenu-item:hover{
+                background: @pink-hover;
+            }
+			.nav-menu .menu-wrapper .ant-menu-horizontal .menu-subItem.ant-menu-item-selected {
+                background: @pink-color;
+            }
+            .ant-menu-horizontal .ant-menu-vertical .menu-subMenu-item .ant-menu-item:hover a ,
+            .ant-menu-horizontal .ant-menu-vertical .menu-subMenu-item .ant-menu-item-selected a{
+                color:  @pink-color !important;
+            }
+        }
+
+		.footer-wrapper{
+			background: @white-color;
+		}
+		.search-box ,.nav-wrapper,.ant-menu-horizontal{
+			background: #F6D7DB;
+		}
+
+		.top-info{
+			background-color: @pink-color;
+			.nav-wrapper{
+				.icon-extra{
+					color: @white-color;
+				}
+				.icon{
+					color: @white-color;
+				}
+				.nav-item{
+					.btn-login a,span,.btn-login,span a{
+						color: @white-color;
+					}
+				}
+			} 
+		}
+
+		.search-box{
+			border-bottom: none;
+		}
+
+		.search-box .input-wrapper .btn-search {
+			background: @pink-color;
+			color: #fff;
+		}
+		.search-box .input-wrapper .ant-input{
+			background: @white-color;
+			color: @black-color;
+		}
+		.search-box .ant-input:hover{
+			border-color: #d9d9d9;
+		}
+		.search-box .ant-input:focus{
+			border-color: #d9d9d9;
+			box-shadow: none;
+		}
+	}
+
+	#pFooter .footer-wrapper{
+		color:@white-color;
+		background:  @pink-color;
+		.footer-content{
+            .title-line {
+                background: @pink-color;
+            }
+            .font {
+                color:@white-color;
+            }
+			.title{
+                font-family: Arial;
+                font-size: 20px;
+                color:@white-color;
+				.title-icon{
+					display: none;
+				}
+			}
+		} 
+		.rights{
+			color:@white-color;
+			background:  @pink-color;
+			border-top: 1px solid @white-color;
+		}
+	}
+	.pc-home{
+		.ad-img-box{
+			.ad-img-cover{
+				.ad-cover-inner{
+					background: rgba(225,48,59,.2);
+				}
+			}
+			.ad-img-cover-jewelry .ad-cover-inner .inner-font{
+				color: @pink-color;
+			}
+		}
+		.case-name{
+			margin-bottom: 20px;
+    		text-align: center;
+    		color: @pink-color;
+		}
+		.showcase{
+			background-color: rgba(242,192,197,0.50);
+		}
+
+	} 
+	//列表页
+	.productPage{
+		.productList{
+			.listPartTwo{
+				height: auto;
+				margin-bottom: 0;
+			}
+			.part{
+				.right-info{
+					.photo{
+						.img-pick{
+							border: 1px solid transparent;
+						}
+						.img-active{
+							border: 1px solid @pink-color;
+						}
+					}
+					.time{
+						background-color:@pink-color;
+						border:1px solid @pink-color;
+						color: @white-color;
+						div{
+							padding: 0 5px;
+							border-radius: 2px;
+							span:nth-child(2){
+								font-size: 20px;
+							}
+							.time-jewelry-day{
+								display: inline-block;
+								font-size: 10px;
+							}
+							.time-default-day{
+								display: none;
+							}
+						}
+					}
+					.sale{
+						background: @pink-color;
+						.sale-span{
+							color: @pink-color;
+						}
+						.sale-spans{
+							color: @white-color;
+						}
+					}
+					.operate{
+						.icon-heart{
+							&:hover{
+								color: @pink-color;
+							}
+						}
+						.anticon-heart{
+							color:@pink-color;
+						}
+						.icon-eyesss{
+							color:@black00-color;
+							&:hover{
+								color: @pink-color;
+							}
+						}
+						.icon-p:hover{
+							color: @pink-color;
+						}
+					}
+				} 
+			} 
+		}
+		.sort{
+			.sortType-choose{
+				color:@white-color;
+				background:@pink-color;
+				border: 1px solid @pink-color;
+			}
+		}
+	}
+	//详情页
+	.pd-contain{
+		.magnifier-wrap .img-list li.active::after{
+			border-color: @pink-color;
+		}
+		.spec-list{
+			.list-con{
+				li.active::before{
+					border-color: @pink-color;
+				}
+			} 
+		}
+		.do-price{
+			.do-price-discount{
+			    background: @pink-color;
+			    color: @white-color;
+			}
+		}
+		.timeBox{
+			opacity: .8;
+	    	background: @pink-color;
+	    	.time{
+				.leftTextBox{
+					color: @white-color;
+				}
+				.centerTimeBox{
+					dl{
+						dt{
+							color: @pink-color;
+						}
+						dd{
+							color: @white-color;
+						}
+					}
+				}
+				.rightAllBox{
+					a{
+						color: @white-color;
+					}
+				}
+	    	}
+	    }
+	}
+	//公司信息
+	#pCompany{
+		.wrabox{
+			.bor_bt{
+				background: @pink-color;
+			}
+		}
+	}
+	#pContact{
+		.conbox{
+			.bor_bt{
+				background: @pink-color;
+			}
+		}
+	}
+}
+
+

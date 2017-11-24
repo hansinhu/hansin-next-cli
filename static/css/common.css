@@ -1,0 +1,120 @@
+/*html{
+	font-family: "HelveticaNeue-Medium";
+}*/
+body{
+	background: #fff;
+}
+.main-wrapper {
+	overflow: hidden;
+	min-height: 500px;
+}
+
+.pc-container{
+	min-height: 800px;
+}
+
+
+.p {
+    color: #ff0000;
+    font-size: 24px;
+}
+.p-link{
+	color: #333;
+}
+
+.fr{
+	float: right;
+}
+.fl{
+	float: left;
+}
+.margint5{
+	margin-top: 5px;
+}
+.margint10{
+	margin-top: 10px;
+}
+.margint20{
+	margin-top: 20px;
+}
+.margint30{
+	margin-top: 30px;
+}
+.margint35{
+	margin-top: 35px;
+}
+.margint40{
+	margin-top: 40px;
+}
+.marginr5{
+	margin-right: 5px;
+}
+.marginr10{
+	margin-right: 10px;
+}
+.marginr20{
+	margin-right: 20px;
+}
+.fs36{
+    font-size: 36px;
+  }
+
+/*social-sp*/
+.social-sp {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background-image: url(../img/social-sp.png);
+	background-repeat: no-repeat;
+}
+
+.social-facebook-icon {
+	background-position: -50px -50px;
+}
+
+.social-linkedin-icon {
+	background-position: -190px -50px;
+}
+
+.social-pinterest-icon {
+	background-position: -50px -190px;
+}
+
+.social-twitter-icon {
+	background-position: -190px -190px;
+}
+
+.main-wrapper .fb-messengermessageus{
+	position: fixed;
+	right: 0;
+	top: 50%;
+	z-index: 10;
+}
+
+.loading {
+	position: fixed !important;
+	top: 50%;
+	z-index: 999;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+body div .fb-messengermessageus{
+	position: fixed;
+	right: 0;
+	top: 60%;
+	z-index: 1;
+}
+
+.common-link:hover {
+	text-decoration: underline;
+}
+
+#header .ant-affix{
+	z-index: 100;
+}
+.ant-btn[disabled]{
+	color: rgba(0,0,0,.25) !important;
+	background-color: #f7f7f7 !important;
+	border-color: #d9d9d9 !important;
+}

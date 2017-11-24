@@ -1,0 +1,139 @@
+
+//皮肤等通用less
+//@import "~antd/lib/style/index.less";
+@import "../../../../node_modules/antd/lib/style/index.less";
+
+
+//组件less文件
+@import '../pc-components.less';
+@import "./color.less";
+
+@import './home.less';
+@import './company.less';
+@import './contact.less';
+@import './countDown.less';
+@import './detail.less';
+@import './header.less';
+@import './footer.less';
+@import './magnifier.less';
+@import './moreInformation.less';
+@import './oprate.less';
+@import './productitem.less';
+@import './productPage.less';
+@import './tabs.less';
+
+
+body {
+    font-family: 'Noto Serif', serif,"AppleMyungjo";
+}
+
+/*Button*/
+.ant-btn-primary{
+    color: @main-color;
+    &:hover{
+    	color: @main-color;
+    }
+    &:focus{
+    	color: @main-color;
+    }
+    &:active{
+    	color: @main-color;
+    }
+    &.active{
+    	color: @main-color;
+    }
+}
+
+/*Checkbox*/
+.ant-checkbox-group{
+    .ant-checkbox-group-item{
+        .ant-checkbox{
+            .ant-checkbox-inner{
+                width: 24px;
+                height: 24px;
+                font-size: 24px;
+                &:after{
+                    width: 8px;
+                    height: 15px;
+                    left: 6px;
+                }
+            } 
+        }
+        .ant-checkbox-checked{
+            .ant-checkbox-inner{
+                background-color:@main-color;
+                border:1px solid @main-color;
+            }
+        }
+    }
+}
+.ant-checkbox-wrapper{
+    &:hover{
+        .ant-checkbox-inner{
+            border: 1px solid @main-color;
+        }
+    }
+}
+
+.ant-checkbox-input:focus+.ant-checkbox-inner{
+    border-color:@main-color;
+}
+
+.ant-rate-star-full .ant-rate-star-second, .ant-rate-star-half .ant-rate-star-first{
+    color:@main-color;
+}
+
+/*Input*/
+.ant-input{
+    &:hover{
+        border-color: @black0-color;
+    }
+    &:focus{
+        border-color: @black0-color;
+        box-shadow: 0 0 0 0 transparent;
+    }
+}
+.ant-input-affix-wrapper{
+    &:hover{
+        .ant-input:not(.ant-input-disabled){
+            border-color: @black0-color;
+        }
+    }
+}
+.ant-select-open .ant-select-selection{
+    border-color: @black0-color;
+    box-shadow: 0 0 0 0 transparent;
+}
+.ant-select-selection{
+    &:hover{
+        border-color: @black0-color;
+    }
+}
+
+.ant-menu-horizontal>.ant-menu-item:hover,
+.ant-menu-horizontal>.ant-menu-submenu:hover{
+    border-bottom: none !important;
+}
+
+.ant-affix {
+    right: 0;
+    width: 100% !important;
+}
+
+.ant-modal {
+    height: 80%;
+    width: 50% !important;
+}
+.ant-modal-content {
+    height: 100%;
+    overflow-y: auto;
+    p{
+        line-height: 26px;
+        text-indent: 10px;
+        font-size: 12px;
+    }
+    p.title {
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
